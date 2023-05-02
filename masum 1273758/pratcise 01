@@ -1,0 +1,28 @@
+<DOCTYPE html>
+
+
+
+	<head>
+	<title>this is mausm</title> </br>
+	<meta charset="UTF-8">
+	<meta name="description"content="Free html tutorial"/>
+	<meta name="keyword"content="Html,html"/>
+	<meta name="author" content="masum hossain"/>
+	<link rel="stylesheet" href="style.css">
+	<script src="index.js"></script>
+	<style>body{background-color: blue;}
+	<style>body{background-color: blueviolet;}</style>
+	<style>body{background-color: brown;}</style>
+	
+	
+	
+	</body>
+		
+
+
+	</head>
+	<body>
+	This is masum hossain.</br>I Was bron in comilla.</br> but grown up in Dhaka.</br>I am 26 years old.<br/>I am a student at Dhaka University.
+
+	</body>
+	</html>
