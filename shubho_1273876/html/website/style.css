@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: tomato;
+}
+h1 {
+  color: #038cfc;
+}
+.btn:hover {
+  background: #038cfc;
+}
+a.nav-link {
+  color: #038cfc;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+a.nav-link:hover {
+  color: tomato !important;
+}
+a.nav-link.active {
+  color: tomato !important;
+}
+.navbar-brand img {
+  width: 50%;
+}
+.btn-outline-success {
+  color: tomato;
+  border: 1px solid tomato;
+}
+.btn-outline-success {
+  color: tomato;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #038cfc;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgba(3, 140, 252, 0.25) !important;
+}
+.navbar-toggler {
+  color: #038cfc;
+  border: 1px solid #038cfc;
+}
