@@ -1,0 +1,22 @@
+a{
+    font-size: xx-large;
+    text-decoration: solid;
+    padding-left: 20px;
+    color: black;  
+ }
+ a:hover{
+     color: blue;
+ }
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+}
+p{
+    float: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
