@@ -1,4 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
+h1{color:rgb(59, 92, 5); font-size: 70px;}
+
+body {
+    background-color: aqua;
+}
+h1{
+    color: aquamarine;
+} 
+.home{
+    color: yellow;
+}
+#Home{
+    color: brown;
 }

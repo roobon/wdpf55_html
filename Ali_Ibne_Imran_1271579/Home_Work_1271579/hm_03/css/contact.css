@@ -1,0 +1,24 @@
+a{
+    font-size: xx-large;
+    text-decoration: solid;
+    padding-left: 20px;
+    color: black;  
+ }
+ a:hover{
+     color: blue;
+ }
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+}
+img{
+    height: 100px; 
+    width: 100px;
+    image-rendering: auto;
+    padding-left: 110px;
+    padding-top: 50px;
+}
+img:hover{
+    color: blue;
+}
