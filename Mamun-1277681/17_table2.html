@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML | Table</title>
+    <style>
+        #tbl1,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            border-radius: 5px;
+        }
+        /* #tbl1 {
+            width: 100%;
+        } */
+        #tbl1 td{
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML Table with colspan -->
+    <h3>Html Table with Colspan</h3>
+    
+    <table id="tbl1">
+        <tr>
+            <td colspan="2">A</td>
+            
+            <td colspan="2">C</td>
+            
+        </tr>
+        <tr>
+            <td colspan="4">E</td>
+            
+        </tr>
+        <tr>
+            <td>I</td>
+            <td colspan="3">J</td>
+            
+        </tr>
+        <tr>
+            <td>M</td>
+            <td>N</td>
+            <td>O</td>
+            <td>P</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,th{
+            border: 1px solid hsl(0, 0%, 7%);
+            border-collapse: collapse;
+            /* border-radius: 10px; */
+        }
+        th{
+            width: 33%;
+        }
+        #tbl3{
+            width: 500px;
+            border-spacing: 20px;
+            border-collapse: separate;
+            border-radius: 30px;
+        }
+        #tbl3 td{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Table with 4 rows and 4 colums</h3>
+    <table style="width: 100%;">
+        <tr>
+            <td>ID</td>
+            <td>Item</td>
+            <td>Price</td>
+            <td>Quantity</td>          
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>RAM</td>
+            <td>2</td>
+            <td>4000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Hard Disk</td>
+            <td>3</td>
+            <td>12000</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Mother Board</td>
+            <td>2</td>
+            <td>10000</td>
+        </tr>
+    </table>
+    <h3>Table with Header and Caption</h3>
+    <caption>Player List</caption>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Country</th>
+            <th>Player</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Bangladesh</td>
+            <td>Shakib,Tamim</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>India</td>
+            <td>Kohli,Rohit</td>
+        </tr>
+    </table>
+    <h3>Table with Padding</h3>
+    <table id="tbl3">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+    </table>
+</body>
+</html>
