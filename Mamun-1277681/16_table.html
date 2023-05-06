@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMLTable</title>
+    <style>
+        table, th, td {border: 1px solid black; 
+        border-collapse: collapse;
+        border-radius: 3px;
+        }
+        th{
+            width: 66%;
+        }
+        #tbl3 td{
+            padding: 25px;
+        }
+        #tbl3{
+            width: 600px;
+            border-spacing: 25px;
+            border-collapse: separate;
+        }
+
+        /* Table 2 style */
+        #tbl2 td{
+            padding: 25px;
+        }
+        #tbl2{
+            /* width: 600px; */
+            border-spacing: 25px;
+            border-collapse: collapse;
+        }
+        
+    </style>
+</head>
+<body>
+    <h3>Table with 4 roas and 4 column</h3>
+
+    <!-- Table form -->
+    <table style="width: 50%;">
+        
+        <tr>
+            <td>
+                ID
+            </td>
+            <td>
+                Item
+            </td>
+            <td>
+               Quantity
+            </td>
+            <td>
+                price
+            </td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Hardisk</td>
+            <td>2</td>
+            <td>4000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ram</td>
+            <td>3</td>
+            <td>12000</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Motherboard</td>
+            <td>2</td>
+            <td>25000</td>
+        </tr>
+    </table>
+    <!-- table with heders -->
+    <h3>Table with headers</h3>
+    <table style=width:50%>
+        <caption>Player lisr</caption>
+        <tr>
+            <th>ID</th>
+            <th>Country</th>
+            <th>Player</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Bangladeash</td>
+            <td>Sakib</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Srilanka</td>
+            <td>Sangakara</td>
+         </tr>
+         <tr>
+            <td>3</td>
+            <td>England</td>
+            <td>Butler</td>
+         </tr>
+    </table>
+    <!-- table with paddin] -->
+    <h3>Table with padding</h3>
+    <caption>Table caption</caption>
+    <table id="tbl3">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+    </table>
+    <h3>Table with rowspan</h3>
+    <table id="tbl2">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td rowspan="3">C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td rowspan="2">F</td>
+            
+            <td rowspan="2">H</td>
+        </tr>
+        <tr>
+            <td>I</td>
+            
+            
+            
+        </tr>
+        <tr>
+            <td>M</td>
+            <td>N</td>
+            <td>O</td>
+            <td>P</td>
+        </tr>
+    </table>
+   
+</body>
+</html>
