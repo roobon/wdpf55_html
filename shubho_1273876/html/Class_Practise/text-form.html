@@ -17,6 +17,14 @@
     input {
         margin: 5px 0px;
     }
+
+    button {
+        margin: 10px 0px;
+    }
+
+    select {
+        margin: 5px 0px;
+    }
 </style>
 
 <body>
@@ -25,7 +33,7 @@
         <fieldset>
             <legend>Personal Details</legend>
             Salutation:<br>
-            <select name="" id="">
+            <select name="salutation" id="">
                 <option value="">--None--</option>
                 <option value="value1">value 1</option>
                 <option value="value2">value 2</option>
@@ -39,7 +47,7 @@
             <label for="z">Female</label><br>
             Email: <input type="email" name="name" id=""><br>
             Date of Birth: <input type="date" name="DOB" id=""><br>
-            Address: <br><textarea name="" id="" cols="30" rows="10"></textarea><br>
+            Address: <br><textarea name="address" id="address" cols="30" rows="10"></textarea><br>
             <button type="submit">Submit</button>
         </fieldset>
     </form>
