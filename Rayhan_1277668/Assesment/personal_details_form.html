@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        salutation <br>
+        <select name="" id="">
+            <option value=""> --None-- </option>
+            <option value=""> --Mr-- </option>
+            <option value=""> --Mrs-- </option>
+        </select>  <br> <br> 
+
+        First Name :
+        <input type="text"> <br> <br>
+        
+        Last Name : 
+        <input type="text">  <br> <br>
+
+        Gender: <input type="radio" name="gender"> Male 
+         <input type="radio" name="gender"> Female 
+
+         <br> <br>
+
+         Email : <input type="email">   <br> <br>
+
+         Date of Birth : <input type="date" name="" id="">
+
+         <br> <br>
+          Address: <br> 
+          <textarea name="" id="" cols="30" rows="5"></textarea>
+        
+        <br> <br>
+
+        <input onclick=onSubmit() type="button" value="submit">
+
+
+
+    </form>
+
+    <script>
+       const onSubmit = () => {
+        window.alert('Submitted successfully') ;
+        window.location.reload();
+       }
+    </script>
+</body>
+</html>
