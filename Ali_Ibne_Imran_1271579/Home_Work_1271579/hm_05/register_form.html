@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            /* padding-left: 20px; */
+            text-align: center;
+        }
+        fieldset{
+            border-radius: 30px;
+            border-style: dashed;
+        }
+        legend{
+            border: 1px solid black;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Student Registration Form</legend><br><br>
+            ID: <input type="text-box" name="id" required><br><br>
+            Name: <textarea name="name" id="" cols="20" rows="1" required></textarea><br><br>
+        Round:
+        <select name="round" id="round" required>
+            <option value="">--select--</option>
+            <option>Round 50</option>
+            <option>Round 51</option>
+            <option>Round 52</option>
+            <option>Round 53</option>
+            <option>Round 54</option>
+            <option>Round 55</option>
+            <option>Round 56</option>
+        </select><br><br>
+        Gender:  Male<input type="radio" name="gender">
+        Female<input type="radio" name="gender"><br><br>
+        Education: <input type="checkbox" name="ssc">
+                    <input type="checkbox" name="hsc">
+        <br><br>
+        <input type="submit" name="submit">
+        <input type="reset" name="reset">
+    </fieldset>
+    </form>
+</body>
+</html>

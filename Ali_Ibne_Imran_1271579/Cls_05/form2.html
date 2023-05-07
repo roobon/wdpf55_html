@@ -5,11 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            border: 1px solid black;
+            text-align: center;
+        }
+        h3{
+            color: red;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
     <form action="">
         <h1>Travel reservation form</h1>
-        <h3>Re</h3>
+        <h3>*required</h3>
         <label for="fname">Full Name*:</label><br>
         <input type="text" id="fname" name="fname" placeholder="FirstName LastName"><br>
         <label for="email">Email address*:</label><br>
@@ -27,16 +37,16 @@
         <label for="person" id="person" name="person">Name of Person*:</label><br>
         <input type="text" name="psn" placeholder="UNKNOWN_TYPE"><br>
         <label for="">What would you want to avail*:</label><br>
-        <label for="">Boarding</label>
-        <input type="checkbox" name="checkbox"><br>
-        <label for="">Fooding</label>
-        <input type="checkbox" name="checkbox"><br>
-        <label for="">Sight seeing</label>
-        <input type="checkbox" name="checkbox"><br>
+        Boarding<input type="checkbox" name="checkbox"><br>
+        Fooding<input type="checkbox" name="checkbox"><br>
+        Sight seeing<input type="checkbox" name="checkbox"><br>
         <label for="">Discount Coupon code</label><br>
         <input type="text" name="coupon" placeholder="UNKNOWN_TYPE"><br>
-        <label for="">Discount Coupon code</label><br>
-        
+        <label for="">Terms and Conditions*:</label><br>
+        <input type="radio" name="yes">I agree 
+        <input type="radio" name="yes">I disagree <br>
+        <button type="submit" name="submit">Complete reservation</button>        
     </form>
+    </div>
 </body>
 </html>
