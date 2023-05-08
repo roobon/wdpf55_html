@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width,=device-width, initial-scale=1.0">
+    <titl>table for rowspan and colspan</title>
+        <style>
+#tbl1, h1 {background-color:gold;}
+#tbl1 td,tr {border: 2px solid black;}
+#tbl1 {width: 400px;height:200px; background-color: aliceblue;}
+#tbl1 {border-collapse:collapse ; }
+#tbl1,tr {text-align: center;}
+#tbl1 {padding: 25%;}
+#tbl2,td,tr {border: 2px solid yellowgreen;}
+#tbl2 {width: 500px; height: 300px; background-color: aquamarine;}
+#tbl2 {border-collapse: collapse;}
+#tbl2 {text-align: center;}
+#tbl2 {padding: 25px;}
+
+
+
+
+
+        </style>
+    
+</head>
+<h1>Table for Rowspan</h1>
+<table id="tbl1">
+    <tr>
+        <td rowspan="3">A</td>
+        <td>B</td>
+        <td rowspan="2">C</td>
+    </tr>
+    <tr>
+        
+        <td>E</td>
+        
+    </tr>
+    <tr>
+        
+        <td>H</td>
+        <td>I</td>
+    </tr>
+    
+
+</table>
+<h3>Tabler for Colspan</h3>
+<table id="tbl2">
+    <tr>
+        <td>Masum </td>
+        <td>Arif</td>
+        <td colspan="">Kamrul</td>
+    </tr>
+    <tr>
+        <td colspan="3">Hasan</td>
+        
+        
+    </tr>
+    <tr>
+        <td>Taspiya</td>
+      
+        <td colspan="2">Mizan</td>
+    </tr>
+</table>
+
+<body>
+</body>
+</html>
