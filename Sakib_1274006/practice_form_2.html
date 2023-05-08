@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Travel reservation form</h2>
+    <h4>*denotes mandotory</h4>
+    <form>
+        <fieldset style="width:30%"> 
+            <legend>form</legend>
+
+            Full name*: <br>
+            <input type="text" name="fname" placeholder="Firstname Lastname" required><br>
+            Email address*: <br>
+            <input type="email" name="email" placeholder="Email Address" required><br>
+            select Tour Package*: <br>
+            <select name="package" required>
+                <option value="">Tour package</option>
+                <option value="1">Cox's Bazar</option>
+                <option value="2">Bandarban</option>
+                <option value="3">Sajek</option>
+            </select> <br>
+            Arrival date*: <br>
+            <input type="text" name="arrival_date" placeholder="m/d/y" required> <br>
+            Number of persons*: <br>
+            <input type="number" name="number_of_person" placeholder="unknown_type" required> <br>
+            What would you want to avail?*: <br>
+            <input type="checkbox" name="Boading" value="Boading">Boading <br>
+            <input type="checkbox" name="Fooding" value="Fooding"> Fooding <br>
+            <input type="checkbox" name="Sight seeing" value="Sight seeing"> Sight seeing <br>
+            Discount Coupon code: <br>
+            <input type="text" name="discount" placeholder="unknown_type"><br>
+            terms and conditions* <br>
+            <input type="radio" name="terms"> I agree
+            <input type="radio" name="terms"> I disagree <br>
+            <input type="submit" value="Complete Reservation">
+        </fieldset>
+    </form>
+</body>
+</html>
