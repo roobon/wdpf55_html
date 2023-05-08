@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        table ,td {
+        table,
+        td {
             width: 500px;
         }
-        #table-1 , td {
-            border: 2px solid lightsalmon; 
+
+        #table-1,
+        td {
+            border: 2px solid lightsalmon;
             border-collapse: collapse;
         }
+
         #table-1 td {
             padding: 25px;
             text-align: center
-        };
-/* 
+        }
+
+        ;
+        /* 
      td {
         -webkit-animation: td 1.5s infinite;
       }
@@ -29,20 +36,20 @@
     100% {border:3px solid rgb(214, 113, 163);}
     } */
 
-    #table-2 , td {
-            border: 2px solid lightsalmon; 
+        #table-2,
+        td {
+            border: 2px solid lightsalmon;
             border-collapse: collapse;
-        }  
+        }
+
         #table-2 td {
             padding: 25px;
             text-align: center;
             background-color: rgba(127, 255, 212, 0.507);
         }
-
-      
-    
     </style>
 </head>
+
 <body>
     <h3>
         Table with colspan
@@ -51,23 +58,23 @@
     <table id="table-1">
         <tr>
             <td colspan="2">A</td>
-            
-            <td colspan="2">C</td>
-            
 
-            
+            <td colspan="2">C</td>
+
+
+
         </tr>
         <tr>
             <td colspan="4">E</td>
-           
+
         </tr>
         <tr>
             <td>I</td>
             <td colspan="3">J</td>
-            
+
         </tr>
         <tr>
-            
+
             <td colspan="3">O</td>
             <td>P</td>
         </tr>
@@ -84,31 +91,32 @@
             <td>B</td>
             <td rowspan="3">C</td>
             <td>D</td>
-            
+
         </tr>
         <tr>
-            
+
             <td>F</td>
-            
+
             <td rowspan="3">H</td>
         </tr>
         <tr>
             <td>I</td>
             <td>J</td>
-            
-            
+
+
         </tr>
         <tr>
             <td>M</td>
             <td>N</td>
             <td>O</td>
-            
+
         </tr>
     </table>
 
 
 
-   
+
 
 </body>
+
 </html>
