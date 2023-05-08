@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        .menu {
+            width: 25%;
+            float: left;
+        }
+
+        .menu ul li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        .iframe {
+            width: 70%;
+            float: right;
+        }
+
+        ul li a {
+            color: #292929;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 0px 10px;
+        }
+
+        ul li a:hover {
+            color: #8f1a1a;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="home.html" target="content">HOME</a></li>
+            <li><a href="about.html" target="content">ABOUT</a></li>
+            <li><a href="contact.html" target="content">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="iframe">
+        <iframe src="home.html" frameborder="0" height="500px" width="100%" name="content"></iframe>
+    </div>
+
+</body>
+
+</html>
