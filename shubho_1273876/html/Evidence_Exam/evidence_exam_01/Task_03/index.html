@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        .main {
+            width: 1200PX;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu {
+            width: 25%;
+            float: left;
+            background: #292929;
+            height: 100%;
+        }
+
+        .menu ul li {
+            list-style: none;
+            display: block;
+            margin: 30px 0px;
+        }
+
+        .iframe {
+            width: 70%;
+            float: right;
+            box-shadow: 0 10px 60px rgba(255, 255, 255, 0.2);
+            border: 1px solid #000;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        ul li a {
+            color: #fff;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 10px 10px;
+            border: 1px solid #fff;
+            margin: 10px 0px;
+            display: block;
+            width: 100px;
+            text-align: center;
+            border-radius: 3px;
+        }
+
+        ul li a:hover {
+            color: #8f1a1a;
+            border: 1px solid #8f1a1a;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="menu">
+            <ul>
+                <li><a href="home.html" target="content">HOME</a></li>
+                <li><a href="about.html" target="content">ABOUT</a></li>
+                <li><a href="contact.html" target="content">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="iframe">
+            <iframe src="home.html" frameborder="0" height="500px" width="100%" name="content"></iframe>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
