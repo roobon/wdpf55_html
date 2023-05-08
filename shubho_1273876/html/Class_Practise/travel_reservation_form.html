@@ -11,6 +11,10 @@
     form {
         width: 500px;
         margin: 0 auto;
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0 10px 60px 0px rgba(1, 33, 93, 0.1);
     }
 
     h2,
@@ -28,7 +32,9 @@
     }
 
     input[type="text"],
-    input[type="email"],input[type="date"],input[type="number"] {
+    input[type="email"],
+    input[type="date"],
+    input[type="number"] {
         width: 100%;
     }
 
@@ -48,11 +54,11 @@
 <body>
     <h2>Travel reservation form</h2>
     <p>* denotes mandotery</p>
-    <form action="#" method="">
+    <form action="#" method="get">
         Full name*: <br>
-        <input type="text" name="Full_name" required><br>
+        <input type="text" name="Full_name" placeholder="Your Name" required><br>
         Email address*: <br>
-        <input type="email" name="email" id="" required><br>
+        <input type="email" name="email" id="" placeholder="Your Email" required><br>
         Select tour package*: <br>
         <select name="package" id="" required>
             <option value="goa">Goa</option>
@@ -62,13 +68,13 @@
         Arrival date*: <br>
         <input type="date" name="arrival_date" id="" required><br>
         Number of persons*: <br>
-        <input type="number" name="persons" id="" required><br>
+        <input type="number" name="persons" id="" placeholder="Total person" required><br>
         What would you want to avail?*<br>
         <label for="boarding">Boarding<input type="checkbox" id="borading"></label><br>
         <label for="fooding">Fooding<input type="checkbox" id="fooding"></label><br>
         <label for="sight">Sight seeing<input type="checkbox" id="sight"></label><br>
         Discount Coupon code: <br>
-        <input type="text" name="coupon"><br>
+        <input type="text" name="coupon" placeholder="Enter your coupon code"> <br>
         Terms and conditions*<br>
         <label for="agree"><input type="radio" id="agree">Boarding</label>
         <label for="disagree"><input type="radio" id="disagree">Fooding</label><br>
