@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<style>
+    table, th{
+        border: 1px solid red;
+        border-collapse: collapse;
+    }
+    table tr td{
+        border: 1px solid black;
+    }
+    #tbl3{
+        border-collapse: separate;
+        border-spacing: 25px;
+        width: 50%;
+    }
+    #tbl3 td{
+        padding: 15px;
+    }
+</style>
+<body>
+    <h2>Table with 4 rows and 4 columns</h2>
+    <table style="width: 80%;">
+        <tr>
+            <td>ID</td>
+            <td>Item</td>
+            <td>Quantity</td>
+            <td>Price</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Motherboard</td>
+            <td>3</td>
+            <td>12000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Pendrive</td>
+            <td>4</td>
+            <td>2800</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>RAM</td>
+            <td>2</td>
+            <td>4000</td>
+        </tr>
+    </table>
+
+    <h3>Table with header</h3>
+    <table style="width:80%">
+        <caption>Players Name</caption>
+        <tr>
+            <th>Id</th>
+            <th>Team</th>
+            <th>Players</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Bangladesh</td>
+            <td>Sakib, Tamim</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>India</td>
+            <td>Kohli, Dhoni</td>
+        </tr>
+    </table>
+
+    <h2>Table with Padding</h2>
+    <table id="tbl3">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+    </table>
+</body>
+</html>

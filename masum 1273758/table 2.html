@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #tbl1, td {border:1px solid green;
+        border-collapse:collapse;
+            background-color: yellow;
+    }
+        #tbl1 td{padding:25px; }
+              
+                #tbl2, td {border:2px dashed red;
+                border-collapse:collapse;
+            background-color: aqua;}
+            #tbl2 td{padding:25px;}
+
+    </style>
+</head>
+<body>
+    <h3>table with rowspan</h3>
+    <table id="tbl1">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>d</td>
+            
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>F</td>
+            <td colspan="2">G</td>
+            
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>j</td>
+            <td>k</td>
+            <td>L</td>
+            
+        </tr>
+        <tr>
+            <td>M</td>
+            <td>N</td>
+            <td>O</td>
+            <td>P</td>
+        </tr>
+    </table>
+    <table id="tbl1">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>d</td>
+            
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>F</td>
+            <td colspan="2">G</td>
+            
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>j</td>
+            <td>k</td>
+            <td>L</td>
+            
+        </tr>
+        <tr>
+            <td>M</td>
+            <td>N</td>
+            <td>O</td>
+            <td>P</td>
+        </tr>
+    </table>
+    <h3>table with cospan</h3>
+    <table id="tbl2">
+        <tr>
+            <td rowspan="2">A</td>
+            <td rowspan="3">B</td>
+            <td rowspan="2">C</td>
+            <td>d</td>
+            
+        </tr>
+        <tr>
+            
+            
+            
+            <td>h</td>
+            
+        </tr>
+        <tr>
+            <td>I</td>
+            
+            <td>k</td>
+            <td>L</td>
+            
+        </tr>
+        <tr>
+            <td>M</td>
+            <td>N</td>
+            <td>O</td>
+            <td>P</td>
+        </tr>
+    </table>
+    
+            
+    
+</body>
+</html>

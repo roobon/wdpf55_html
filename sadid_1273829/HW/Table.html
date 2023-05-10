@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            width: 50%;
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table tr th, table tr td{
+            border: 1px solid red;
+        }
+        #tbl3{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        #tbl3 th{
+            padding: 5px;
+            border: 1px solid black;
+        } 
+        #tbl3 tr td{
+            padding: 25px;
+            border: 1px solid black;
+        }
+        #styling tr:nth-child(odd){
+            background-color: aquamarine;
+        }
+        #styling tr:nth-child(even){
+            background-color: aqua;
+        }
+        #styling tr td{
+            border: 1px solid aqua;
+        }
+    </style>
+</head>
+<body>
+    <h2>Basic Table</h2>
+    <table>
+        <tr>
+            <td>No</td>
+            <td>Item</td>
+            <td>Quantity</td>
+            <td>Price</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Cocacola</td>
+            <td>4</td>
+            <td>470</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Chips</td>
+            <td>10</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Noodles</td>
+            <td>2</td>
+            <td>70</td>
+        </tr>
+    </table>
+    <br> <br>
+    <h2>Table with header</h2>
+    <table> <!--Table with header-->
+        <caption>Players Name</caption>
+        <tr>
+            <th>No</th>
+            <th>Country</th>
+            <th>Players</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Bangladesh</td>
+            <td>Sakib, Tamim</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>India</td>
+            <td>Virat, Dhoni</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <h2>Table with padding</h2>
+    <table id="tbl3"><!--Table with padding-->
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <h2>Table with colspan & rowspan</h2>
+    <table><!--Table with colspan-->
+        <caption>Table with rowspan</caption>
+        <tr>
+            <td colspan="2">A</td>
+            <!-- <th>B</th> -->
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>F</td>
+            <td colspan="2">G</td>
+            <!-- <td>H</td> -->
+        </tr>
+        <tr>
+            <td>I</td>
+            <td colspan="2">J</td>
+            <!-- <td>K</td> -->
+            <td>L</td>
+        </tr>
+    </table>
+    <br><br>
+    <table><!--Table with rowspan-->
+        <caption>Table with rowspan</caption>
+        <tr>
+            <td rowspan="3">A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <!-- <th>E</th> -->
+            <td rowspan="2">F</td>
+            <td rowspan="3">G</td>
+            <td>H</td>
+        </tr>
+        <tr>
+            <!-- <td>I</td> -->
+            <!-- <td>J</td> -->
+            <!-- <td>K</td> -->
+            <td>L</td>
+        </tr>
+        <tr>
+            <td>M</td>
+            <td>N</td>
+            <!-- <td>O</td> -->
+            <td>P</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <h2>Table Styling</h2>
+    <table id="styling"> <!-- Table Styling here -->
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>F</td>
+            <td>G</td>
+            <td>H</td>
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+        <tr>
+            <td>M</td>
+            <td>N</td>
+            <td>O</td>
+            <td>P</td>
+        </tr>
+    </table>
+</body>
+</html>
