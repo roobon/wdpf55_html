@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            height: 300px;
+            width: 500px;
+            text-align: center;
+        }
+        thead{height: 50px;}
+        table,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+         }
+         thead{
+            background-color: rgb(172, 172, 245);
+         }
+         tbody{
+            background-color: aquamarine;
+         }
+         tfoot{background-color: rgb(107, 118, 151);color:white; height: 50px;}
+    </style>
+</head>
+<body>
+    <h3>Table with head, body, foot</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>5024</td>
+                <td>Rahim</td>
+                <td>Bangladesh</td>
+
+            </tr>
+            <tr>
+                <td>5782</td>
+                <td>Karim</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>5421</td>
+                <td>Hasan</td>
+                <td>Sodi Arab</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Totla 3 Person</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
