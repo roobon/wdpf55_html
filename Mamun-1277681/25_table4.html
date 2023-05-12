@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+  <style>
+    table{
+        width: 50%;
+        height: 300px;
+    }
+    table, td, th{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    thead{
+        background-color: rgb(225, 241, 255);
+    }
+    tfoot{
+        background-color: black;
+        color: aliceblue;
+    }
+  </style>
+</head>
+<body>
+    <h3>Table with head body a nd foot</h3>
+    <table>
+        <thead>
+            
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Rahim</td>
+                <td>Bangladesh</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Josef</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Pichi Hannan</td>
+                <td>Uk</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Person</td>
+                
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>

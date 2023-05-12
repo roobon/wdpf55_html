@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            /* padding-left: 20px; */
+            text-align: center;
+        }
+        fieldset{
+            border-radius: 30px;
+            border-style: dashed;
+        }
+        legend{
+            border: 1px solid black;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+        Salutation <br>
+        <select name="salutation" id="">
+            <option value="">--None--</option>
+            <option>Mr.</option>
+            <option>Miss.</option>
+            <option>Mrs.</option>
+            <option>Md.</option>
+        </select><br><br>
+        First Name: <input type="text" name="name"><br><br>
+        Last Name: <input type="text" name="name"><br><br>
+        Gender: Male<input type="radio" name="gender">
+        Female<input type="radio" name="gender"><br><br>
+        Email: <input type="email" name="email" required><br><br>
+        Date of Birth: <input type="date" name="dob"><br><br>
+        Address: <br>
+        <textarea name="" id="" cols="30" rows="5"></textarea><br><br>
+        <input type="submit" name="submit">
+    </fieldset>
+    </form>
+</body>
+</html>

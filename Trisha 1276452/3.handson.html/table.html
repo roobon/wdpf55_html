@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table ,th ,td {border: 1px solid black; border-collapse: collapse;}
+           thead{background-color: aqua;}
+           tfoot{background-color:tomato; color: whitesmoke;} </style>
+</head>
+<body>
+    <h3>Table with head, body, foot</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>1</td>
+            <td>Rahim</td>
+            <td>Bangladesh</td>
+        </tr>
+            <tr>
+            <td>2</td>
+            <td>joseph</td>
+            <td>UK</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Picchi Hannan</td>
+                <td>USA</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3
+                ">
+                     &copy; All rights are reserved
+                </td>
+            </tr>
+        </tfoot>
+    
+    </table>
+    <br><br><br>
+
+    <table>
+        <colgroup>
+            <col span="2" style="background-color: aqua;">
+            
+            <col>
+        </colgroup>
+        <tr>
+            <td>Item</td>
+            <td>Quantity</td>
+            <td>Price</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+</body>
+</html>

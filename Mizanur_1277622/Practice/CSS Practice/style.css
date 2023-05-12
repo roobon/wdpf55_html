@@ -1,0 +1,70 @@
+div{
+    margin: 20px;
+
+}
+p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    margin-left: 155px;
+}
+h1{
+    text-align: center;
+}
+.onep{
+    font-size: 25px;
+    font-family: monospace;
+    font-weight:bold;
+    font-style:oblique;
+    color:blue;
+    height: auto;
+    width: 400px;
+    background-color: aquamarine;
+    float: left;
+}
+.oned{
+    height: auto; width: 400px;
+    background-color: antiquewhite;
+    text-align: justify;
+    text-transform:initial;
+    float: left;
+}
+.twop{
+    font-size: 25px;
+    font-family: monospace;
+    font-weight:bold;
+    font-style:oblique;
+    color:blue;
+    height: auto;
+    width: 400px;
+    background-color: aquamarine;
+    float: left;
+}
+.twod{
+    height: auto; width: 400px;
+    background-color: antiquewhite;
+    text-align: justify;
+    text-transform:initial;
+    float: left;
+
+}
+.threep{
+    font-size: 25px;
+    font-family: monospace;
+    font-weight:bold;
+    font-style:oblique;
+    color:blue;
+    height: auto;
+    width: 400px;
+    background-color: aquamarine;
+    float: left;
+}
+.threed{
+    height: auto; width: 400px;
+    background-color: antiquewhite;
+    text-align: justify;
+    text-transform:initial;
+    float: left;
+
+}

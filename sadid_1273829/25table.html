@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<style>
+    table{
+        width: 900px;
+    }
+    table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        height: 2.3rem;
+    }
+    thead tr, tfoot tr{
+        background-color: rgb(32, 36, 33);
+        color: white;
+    }
+    tr:nth-child(even){
+        background-color: rgb(32, 36, 33);
+        color: white;
+    }
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0212</td>
+                <td>Sadid</td>
+                <td>Bangladesh</td>
+            </tr>
+            <tr>
+                <td>0256</td>
+                <td>Joy</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td>0431</td>
+                <td>Jhon</td>
+                <td>USA</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total 3 persons</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

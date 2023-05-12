@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3{
+            text-align: center;
+        }
+        table{
+            margin: auto;
+            width: 200px;
+            height: 150px;
+        }
+        table,th,td{
+            border: 1px solid rgb(2, 2, 2);
+            border-collapse: collapse;
+        }
+        thead{
+            color: rgb(247, 247, 247);
+            background-color: rgb(5, 9, 250);
+        }
+        tbody{
+            background-color: rgb(19, 224, 224);
+        }
+        select{
+            width: 100%;
+            background-color: aquamarine;
+            text-align: center;
+        }
+        tfoot{
+            background-color: rgb(250, 145, 8);
+        }
+    </style>
+</head>
+<body>
+    <h3>Table with head,body,foot</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Rahim</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Select</option>
+                        <option value="">Bangladesh</option>
+                        <option value="">India</option>
+                        <option value="">Pakistan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Karim</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Select</option>
+                        <option value="">Bangladesh</option>
+                        <option value="">India</option>
+                        <option value="">Pakistan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Salam</td>
+                <td>
+                    <select name="" id="">
+                    <option value="">Select</option>
+                    <option value="">Bangladesh</option>
+                    <option value="">India</option>
+                    <option value="">Pakistan</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Josep</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Select</option>
+                        <option value="">Bangladesh</option>
+                        <option value="">India</option>
+                        <option value="">Pakistan</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total 4 person</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

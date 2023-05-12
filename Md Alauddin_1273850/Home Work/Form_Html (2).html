@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h3>Form 1 : Contact Form</h3>
+
+    <form>
+        <label for="name"><b>Name</b></label> <br>
+        <input type="text" placeholder="Enter Name" name="email" id="email">
+
+        <br>
+        <br>
+        <label for="email"><b>Email</b></label> <br>
+        <input type="email" placeholder="Enter Name" name="email" id="email" required>
+
+            <br>
+            <br>
+        <label for="text"><b>Subject</b></label> <br>
+        <input type="text" placeholder="Enter Email" name="email" id="email">
+
+        <br>
+        <br>
+        <label for="message"><b>Message</b></label> <br>
+        <textarea placeholder="Give your Message" name="" id="" cols="30" rows="5"></textarea>
+
+        <br>
+        <input type="submit" value="SUBMIT">
+
+    </form>
+
+
+
+    <h3>Form 2: Registration Form</h3>
+
+    <form action="">
+        Name : <br> <input type="text" name="name" placeholder="Enter your name"> <br>
+        Gender: <br> Male <input type="radio" name="gender">
+        Female <input type="radio" name="gender">  <br>
+        DOB: <br> <input type="date"> <br>
+        District: <br>
+        <select name="" id="">
+            <option value="">Select One</option>
+            <option value="">Dhaka</option>
+            <option value="">Noakhali</option>
+            <option value="">Chittagong</option>
+        </select> <br> <br>
+        <input onclick={submit_btn()} type="submit">      
+    </form>
+
+
+    <script>
+        function submit_btn() {
+            window.alert('Congratulation....!!! Form Submitted')
+        }
+          
+        
+    </script>
+</body>
+</html>

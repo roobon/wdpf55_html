@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form {
+        width: 500px;
+        margin: 0 auto;
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0 10px 60px 0px rgba(1, 33, 93, 0.1);
+    }
+
+    h2,
+    p {
+        text-align: center;
+    }
+
+    input,
+    select {
+        margin: 10px 0px;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="number"] {
+        width: 100%;
+    }
+
+    input[type="checkbox" i] {
+        margin: 0 5px;
+    }
+
+    input[type="radio" i] {
+        margin: 0 5px;
+    }
+
+    button {
+        margin: 10px 0px;
+    }
+</style>
+
+<body>
+    <h2>Travel reservation form</h2>
+    <p>* denotes mandotery</p>
+    <form action="#" method="get">
+        Full name*: <br>
+        <input type="text" name="Full_name" placeholder="Your Name" required><br>
+        Email address*: <br>
+        <input type="email" name="email" id="" placeholder="Your Email" required><br>
+        Select tour package*: <br>
+        <select name="package" id="" required>
+            <option value="goa">Goa</option>
+            <option value="goa">Dhaka</option>
+            <option value="goa">London</option>
+        </select><br>
+        Arrival date*: <br>
+        <input type="date" name="arrival_date" id="" required><br>
+        Number of persons*: <br>
+        <input type="number" name="persons" id="" placeholder="Total person" required><br>
+        What would you want to avail?*<br>
+        <label for="boarding">Boarding<input type="checkbox" id="borading"></label><br>
+        <label for="fooding">Fooding<input type="checkbox" id="fooding"></label><br>
+        <label for="sight">Sight seeing<input type="checkbox" id="sight"></label><br>
+        Discount Coupon code: <br>
+        <input type="text" name="coupon" placeholder="Enter your coupon code"> <br>
+        Terms and conditions*<br>
+        <label for="agree"><input type="radio" id="agree">Boarding</label>
+        <label for="disagree"><input type="radio" id="disagree">Fooding</label><br>
+        <button type="submit">Complete reservation</button>
+    </form>
+</body>
+
+</html>
