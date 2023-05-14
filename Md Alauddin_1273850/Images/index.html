@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(13, 20, 27);
+        }
+        nav{
+            padding: 30px;
+            float: left;
+            margin-right: 30px;
+            height: 400px; width: 200px;
+            background-color: aqua;
+            border-radius: 20px;
+            
+        }
+        iframe{
+           border-radius: 20px;
+            background-color: bisque;
+            padding: 30px;
+            height: 400px; width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="home.html" target="myframe">Home</a>|<a href="about.html" target="myframe">About</a>|<a href="contact.html" target="myframe">contact</a>
+    </nav>
+    <div>
+        <iframe src="home.html" name="myframe" frameborder="1"></iframe>
+    </div>
+</body>
+</html>
