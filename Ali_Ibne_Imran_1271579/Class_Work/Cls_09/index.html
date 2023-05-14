@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #menu{
+            float: left;
+            margin-left: 20px;
+            background-color: rgb(56, 55, 55); 
+            width: 100px;
+            height: 300px;
+            padding: 30px;
+        }
+        a{
+            font-size: 25px;
+            color: rgb(248, 245, 245);
+            text-decoration: solid;
+            text-align: left;
+        }
+        a:hover{
+            color: orangered;
+        }
+        #iframe,iframe{
+            width: 300px;
+            height: 300px;
+            float: left;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <a href="Evidence/home.html" target="content">Home</a>
+        <a href="Evidence/about.html" target="content">About</a>
+        <a href="Evidence/contact.html" target="content">Contact</a>       
+    </div>
+    <div id="iframe">
+        <iframe src="Evidence/home.html" frameborder="1" name="content">Home</iframe>
+    </div>
+</body>
+</html>
