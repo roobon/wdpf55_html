@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with thead,tbody & tfoot </title>
+    <style>
+        table{
+            width: 300px;
+            height: 200px;
+        }
+        table, th, td{
+            border: 1px solid  rgb(28, 240, 21);
+            border-collapse: collapse;
+        }
+        tbody tr td{
+            color: black;
+            text-align: center;
+            
+        }
+        thead{
+            font-size: 20px;
+        }
+        tfoot{
+            text-align: center;
+            font-weight: bold;
+            height: 30px;
+            background-color: bisque;
+        }
+        caption{
+            font-size: large;
+            font-weight: bolder;
+            background-color: bisque;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Table with thead,tbody & tfoot</h1>
+    <table>
+        <caption>Table with Section</caption>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>District</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Mizanur Rahman</td>
+                <td>Barisal</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jahid Hasan</td>
+                <td>Sariatpur</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Abdul Kaium</td>
+                <td>Chandpur</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Saikat Hossain</td>
+                <td>Sariatpur</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total No- 3 Person</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
