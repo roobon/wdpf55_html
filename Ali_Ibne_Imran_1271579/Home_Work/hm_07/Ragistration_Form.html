@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            border: 1px solid black;
+            width: 1000px;
+            margin-left: 140px;
+            margin-right: 140px;
+            padding: 30px;
+        }
+        .container{
+            
+        }
+        h1{
+            text-align: center;
+            font-size: 50px;
+        }
+        h3{
+            font-size: 25px;
+        }
+        input{
+            margin-left: 10px;
+        }
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+        select{
+            /* width: 100%; */
+        }
+        #btn{
+            border-radius: 10px;
+            color: rgb(245, 241, 241);
+            background-color: rgb(3, 97, 8);
+            box-sizing: border-box;
+            font-size: 15px;
+            padding: 10px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <h3>Personal Information</h3>
+        <label for="name">Full Name :</label> <input type="text" name="name" id="name"><br><br>
+        <label for="fname">Father's Name :</label> <input type="text" name="fname" id="fname"><br><br>
+        <label for="mname">Mother's Name :</label> <input type="text" name="mname" id="mname"><br><br>
+        <label for="nationality">Nationality :</label> <input type="text" name="nationality" id="nationality"><br><br>
+        <label for="dob">Date of Birth :</label> <input type="date" name="dob" id="dob"><br><br>
+        <label for="idn">I'd Number :</label> <input type="number" name="idn" id="idn"><br><br>
+        <label for="email">Email :</label> <input type="email" name="email" id="email"><br><br>
+        <label for="contact">Contact :</label> <input type="number" name="contact" id="contact"><br><br>
+        <label for="gender">Gender :</label> <input checked type="radio" name="gender" id="gender" value="male"> Male <input type="radio" name="gender" id="gender" value="female"> Female <input type="radio" name="gender" id="gender" value="others"> Others<br><br>
+        <label for="religion">Religion :</label> <input checked type="checkbox" name="religion" id="religion" value="islam"> Islam <input type="checkbox" name="religion" id="religion" value="hindu"> Hindu <input type="checkbox" name="religion" id="religion" value="others"> Others <br><br>
+        <label for="preadd">Present Address :</label><br>
+        <textarea name="preadd" id="preadd" cols="30" rows="5"></textarea><br><br>
+        <label for="peradd">Permanent Address :</label><br>
+        <textarea name="peradd" id="peradd" cols="30" rows="5"></textarea>
+    </div>
+    <div>
+        <h3>Academic Qualification</h3>
+        <table>
+            <thead>
+                <th>Level</th>
+                <th>Name of Examination</th>
+                <th>Passing Year</th>
+                <th>Subject/Group</th>
+                <th>Result</th>
+                <th>School/College/Institude</th>
+                <th>Board/University</th>
+                <th>Upload Certificate</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SSC/Equivalent</td>
+                    <td>
+                        <select name="select" id="select">
+                            <option value="select">Select</option>
+                            <option>SSC</option>
+                            <option>HSC</option>
+                            <option>Dakhil</option>
+                            <option>O'Level</option>
+                            <option>A'Level</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="select" id="select">
+                            <option value="select">Select</option>
+                            <option>2019</option>
+                            <option>2020</option>
+                            <option>2021</option>
+                            <option>2022</option>
+                            <option>2023</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="select" id="select">
+                            <option value="select">Select</option>
+                            <option>Science</option>
+                            <option>Business</option>
+                            <option>Arts</option>
+                            <option>Others</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="select" id="select">
+                            <option value="select">Select</option>
+                            <option>Grade</option>
+                            <option>Devision</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <select name="select" id="select">
+                            <option value="select">Select</option>
+                            <option>Dhaka</option>
+                            <option>Barisal</option>
+                            <option>Chottogram</option>
+                            <option>Madrasha</option>
+                            <option>Oxford</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="file" name="image" id="image">
+                    </td>
+                </tr>
+                <tr>
+                    <td>SSC/Equivalent</td>
+                    <td>
+                        <select name="select" id="select">
+                            <option value="select">Select</option>
+                            <option>SSC</option>
+                            <option>HSC</option>
+                            <option>Dakhil</option>
+                            <option>O'Level</option>
+                            <option>A'Level</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="select" id="select">
+                            <option value="select">Select</option>
+                            <option>2019</option>
+                            <option>2020</option>
+                            <option>2021</option>
+                            <option>2022</option>
+                            <option>2023</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="select" id="select">
+                            <option value="select">Select</option>
+                            <option>Science</option>
+                            <option>Business</option>
+                            <option>Arts</option>
+                            <option>Others</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="select" id="select">
+                            <option value="select">Select</option>
+                            <option>Grade</option>
+                            <option>Devision</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <select name="select" id="select">
+                            <option value="select">Select</option>
+                            <option>Dhaka</option>
+                            <option>Barisal</option>
+                            <option>Chottogram</option>
+                            <option>Madrasha</option>
+                            <option>Oxford</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="file" name="image" id="image">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div><br>
+    <div>
+        <label for="photo" name="photo">Photo :</label> <input type="file" name="image" id="image"><br><br>
+        <label for="nid" name="nid">NID :</label> <input type="file" name="image" id="image">
+    </div>
+    <br><br>
+    <div>
+        <input type="submit" value="Register" id="btn">
+        <input type="reset" value="Clear" id="btn">
+    </div>
+</body>
+</html>
