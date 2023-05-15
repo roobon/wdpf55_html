@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #menu {
+            width: 150px;
+            height: 500px;
+            background-color: aqua;
+            padding: 20px;
+            float: left;
+            margin-right: 30px;
+
+        }
+        #menu ul li{
+            padding: 5px 0;
+            list-style-type: none;
+            width: 130px;
+            text-align: center;
+            
+        }
+        #menu ul li a {
+            text-decoration: none;
+            background-color: black;
+            color: lime;
+            display: block;
+            
+        }
+        #main{
+            width: 800px;
+            height: 500px;
+            padding: 20px;
+            border: 1px solid green;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <!--Left Menu-->
+        <nav id="menu">
+            <ul>
+                <li><a target="mycontent" href="7paragraphpractice.html">Home</a></li>
+                <li><a target="mycontent" href="28.boxmodel.html">Product List</a></li>
+                <li><a href="">Contact Page</a></li>
+            </ul>
+        </nav>
+        <!--Content-->
+        <div id="main"><iframe src="28.boxmodel.html" name="mycontent" frameborder="0" width="800" height="500"></iframe>
+    
+        </div>
+    </div>
+</body>
+</html>
