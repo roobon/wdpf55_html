@@ -1,0 +1,29 @@
+nav{
+    background-color: antiquewhite;
+    width: 910px;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 30px;
+}
+
+nav a:hover{
+    color: rgb(131, 206, 47);
+}
+.maindiv{
+    width: 1000px;
+}
+.subdiv{
+    width: 240px;
+    color: white;
+    background-color: black;
+    float: left;
+    padding: 30px;
+    margin-right: 5px;
+}
+footer{
+    background-color: blueviolet;
+    color: white;
+}
