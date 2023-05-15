@@ -6,10 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
     <style>
+        body {
+            background-color: bisque;
+            text-align: center;
+        }
+
         table, td {
             border: 1px solid black;
             border-collapse: collapse;
+            
         }
+
         form{
             /* background-color: black; */
             font-style: rgb(194, 189, 189);
@@ -18,9 +25,12 @@
 </head>
 <body>
     <h1>Registration</h1><br>
-    <h3>Personal Info</h3>
+    
 
     <form action="">
+        <fieldset>
+            <legend><h3>Personal Info</h3></legend>
+        
         <label for="Full Name">Full Name:</label>
         <input type="text"><br><br>
         <label for="Father name">Father's Name:</label>
@@ -37,7 +47,6 @@
         <input type="email"><br><br>
         <label for="Contact">Contact</label>
         <input type="number"><br><br>
-<<<<<<< HEAD
         <label for="Gender">gender:</label> <br>
         <input type="radio" name="Gender" id="" value="gender">
         Male 
@@ -47,14 +56,6 @@
          Others 
          
          <br><br>
-=======
-
-        <label for="Gender" >Gender</label>
-        <input type="Radio" name="Gender"id="" value="Male">Male 
-        <input type="radio" name="Gender"id="" value="Male">Female 
-        <input type="radio" name="Gender"id="" value="Female">
-        Others <br><br>
->>>>>>> 794d6157ba11b739ea6b20c3374ee5c59156b833
 
         <label for="Religion" name="Religion" id="" Value="Religion">Religion:</label>
         <input type="checkbox" name="Religion" id="" value="Islam">Islam 
@@ -196,7 +197,8 @@
         </table><br>
         <label for="Photo">Photo:</label><input type="file"><br>
         <br><label for="NID">NID:</label><input type="file"><br>
-        <br><input type="submit"> <input type="reset">
+        <br><input type="submit" value="Register"> <input type="reset" value="Clear">
+    </fieldset>
     </form>
 </body>
 </html>
