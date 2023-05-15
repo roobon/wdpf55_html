@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #menu {
+            width: 160px;
+            height: 500px;
+            background-color: blanchedalmond;
+            padding: 20px;
+            float: left;
+            margin-right: 30px;
+            /* display: flex;
+            align-items: center; */
+            border: 1px solid rgb(152, 162, 251);
+        }
+        #menu ul li {
+            padding: 5px 0;
+            list-style-type:none;
+            width: 130px;
+        }
+        #menu ul li a {
+            text-decoration: none;
+            background-color: rgb(235, 173, 173);
+            color: aliceblue;
+            display: block;
+        }
+        #content {
+            width: 800px;
+            height: 500px;
+            padding: 20px;
+            border: 1px solid palegreen;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <!-- Left Menu -->
+        <nav id="menu">
+            <ul>
+                <li><a href="7paragraph.html" target="mycontent">Home</a></li>
+                <li><a href="26_table5.html" target="mycontent">Product List</a></li>
+                <li><a href="Registration_Form.html" target="mycontent">Contact form</a></li>
+            </ul>
+        </nav>
+        <!-- Content -->
+        <div id="content">
+            <iframe src="26_table5.html" name="mycontent" frameborder="0" width="800" height="500"></iframe>
+        </div>
+    </div>
+</body>
+</html>
