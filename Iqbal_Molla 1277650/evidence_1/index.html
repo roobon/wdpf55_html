@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Iframe</title>
+     <style>
+          
+         
+          .menu {
+               float: left;
+               border: 1px solid blue;
+               width: 100px;
+               height: 400px;
+               padding: 35px 35px;
+               margin: 10px;
+               font-size: 30px;
+               background-color: deepskyblue;
+             
+          }
+          .menu a{
+               text-decoration: none;
+               transition: ease-in-out .2s;
+          }
+          a:hover{
+               color: red;
+          }
+          
+          
+          .iframe {
+               float: left;
+               border: 3px solid royalblue;
+               margin: 10px;
+          }
+     </style>
+</head>
+<body>
+     <div class="menu">
+          <a href="home.html" target="home">Home</a> <br> <br>
+          <a href="table.html" target="home">Table</a> <br> <br> 
+          <a href="form.html" target="home">Form</a>
+     </div>
+
+     <div class="iframe">
+          <iframe src="home.html" name="home" width="700px" height="500px" frameborder="0"></iframe>
+     </div>
+</body>
+</html>
