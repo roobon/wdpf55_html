@@ -6,41 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .tg, td, tr, th{
-            border: 1px solid black;
+        table {
+            background-color: rgb(182, 182, 209);
+        }
+        td {
+            
+            border: 1px;
             border-collapse: collapse;
+            height: 80px;
+            width: 150px;
+            text-align: center;
+            
         }
-        .tg{
-            width: 500px;
-            height: 200px;
+        th {
+            border: 1px; 
+            border-collapse: collapse;
+            background-color: blue;
+            height: 50px;
         }
+        
     </style>
 </head>
 <body>
-    <caption>Product List:</caption>
-    <table class="tg">
-        <colgroup>
-        </colgroup>
+    Product List:
+    <table>
+        
         <tr>
-            <td>Type</td>
-            <td>Name</td>
-            <td>Price</td>
-            <td>Imported</td>
+            <th>Type</th>
+            <th>Name</th>
+            <th>price</th>
+            <th>Imported</th>
         </tr>
         <tr>
-            <td rowspan="3">Food</td>
-            <td>Pringles Chips</td>
+            <td class="food" rowspan="3" style="background-color: yellow;">Food</td>
+            <td>Pringles chip</td>
             <td>125</td>
             <td>Y</td>
         </tr>
         <tr>
-           
+            
             <td>Dry Cake</td>
             <td>150</td>
             <td>N</td>
         </tr>
         <tr>
-           
+            
             <td>Mr. Cookie</td>
             <td>12</td>
             <td>N</td>
