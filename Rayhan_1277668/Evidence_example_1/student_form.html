@@ -7,7 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        input:hover {
+            background-color: rgba(153, 50, 204, 0.562);
+            -ms-transform: scale(1.5);
+            /* IE 9 */
+            -webkit-transform: scale(1.5);
+            /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+        textarea:hover {
+            background-color: rgba(153, 50, 204, 0.575);
+            -ms-transform: scale(1.5);
+            /* IE 9 */
+            -webkit-transform: scale(1.5);
+            /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+        select:hover {
+            background-color: rgba(153, 50, 204, 0.61);
+            -ms-transform: scale(1.5);
+            /* IE 9 */
+            -webkit-transform: scale(1.5);
+            /* Safari 3-8 */
+            transform: scale(1.5);
+        }
 
+        input, textarea, select {
+            transition: transform .8s;
+            
+        }
+
+        form {
+            text-align: center;
+        }
     </style>
 </head>
 
