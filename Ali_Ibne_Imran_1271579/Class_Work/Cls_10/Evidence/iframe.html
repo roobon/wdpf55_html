@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu{
+            float: left;
+            margin-left: 20px;
+            background-color: rgb(160, 124, 89); 
+            width: 100px;
+            height: 300px;
+            padding: 30px;
+        }
+        a{
+            font-size: 25px;
+            color: rgb(238, 237, 237);
+            text-decoration: none;
+            text-align: center;
+            margin: auto;
+        }
+        a:hover{
+            color: rgb(23, 23, 31);
+        }
+        .frame,iframe{
+            float: left;
+            width: 500px;
+            height: 500px;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="Admission.html" target="content">Form</a>
+        <a href="weather_table.html" target="content">Table</a>
+    </div>
+    <div class="frame">
+        <iframe src="weather_table.html" frameborder="1" name="content"></iframe>
+    </div>
+</body>
+</html>
