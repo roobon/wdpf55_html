@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Create Account</legend>
+  <form>
+    <label for="first_name">First Name:</label> <br>
+    <input type="text" id="first_name" name="first_name" required placeholder="Enter First Name"><br><br>
+
+    <label for="last_name">Last Name:</label> <br>
+    <input type="text" id="last_name" name="last_name" required placeholder="Enter last name"><br><br>
+
+    <label for="email">Email:</label> <br>
+    <input type="email" id="email" name="email" required placeholder="Enter your eamil"><br><br>
+
+    <label for="password">Password:</label> <br>
+    <input type="password" id="password" name="password" required placeholder="enter your password"><br><br>
+
+    <label for="confirm_password">Confirm Password:</label> <br>
+    <input type="password" id="confirm_password" name="confirm_password" required placeholder="enter confirmed password"><br><br>
+
+    <label for="gender">Gender:</label> <br>
+    <select id="gender" name="gender" required>
+      <option value="">Select</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br><br>
+
+    <label for="hobbies">Hobbies:</label><br>
+    <input type="checkbox" id="reading" name="hobbies" value="reading">
+    <label for="reading">Reading</label><br>
+
+    <input type="checkbox" id="music" name="hobbies" value="music">
+    <label for="music">Music</label><br>
+
+    <input type="checkbox" id="sports" name="hobbies" value="sports">
+    <label for="sports">Sports</label><br><br>
+
+    <label for="source_of_income">Source of Income:</label> <br>
+    <input type="text" id="source_of_income" name="source_of_income" required><br><br>
+
+    <label for="points">Income:</label> <br>
+<input type="range" id="points" name="points" min="0" max="10"> <br>
+
+    <label for="upload_files">Upload Files:</label>
+    <input type="file" id="upload_files" name="upload_files" multiple><br><br>
+
+    <label for="bio">Bio:</label><br>
+    <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</fieldset>
+</body>
+</html>
