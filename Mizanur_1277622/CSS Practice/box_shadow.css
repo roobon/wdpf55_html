@@ -1,0 +1,27 @@
+:root{
+    --padding: 30px;
+}
+h2{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+h3{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.firstdiv{
+    height: auto;
+    width: 400px;
+    background-color: gray;
+    padding: var(--padding);
+    box-shadow: 5px 7px rgb(22, 22, 22);
+}
+.seconddiv{
+    height: auto;
+    width: 400px;
+    background-color: gray;
+    padding: var(--padding);
+}
+.seconddiv:hover{
+    box-shadow: 4px 2px cyan;
+}
