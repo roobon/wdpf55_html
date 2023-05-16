@@ -5,9 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <style>
+        form{
+            margin-left: 25%;
+            margin-right: 30%;
+        }
+        h1{
+            text-align: center;
+        }
+        fieldset{
+            width: 500px;
+            height: 450px;
+            border-color: black;
+            background-color: rgb(50, 50, 50);
+            box-shadow: 3px 3px 10px 1px;
+        }
+        legend{
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            border: 2px solid gray;
+            padding: 10px;
+            color: white;
+            background-color: rgb(50, 50, 50);
+        }
+        label{
+            font-size: 18px;
+            margin-top: 20px;
+            margin-left: 20px;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        input{
+            margin-top: 5px;
+            margin-left: 20px;
+            width: 90%;
+            height: 6%;
+            border-color: gray;
+            background-color: rgb(50, 50, 50);
+        }
+        input:hover{
+            border-color: rgb(241, 241, 241);
+        }
+        .name{
+            width: 40%;
+            margin-right: 20px;
+        }
+        textarea{
+            margin-top: 5px;
+            margin-left: 20px;
+            width: 90%;
+            border-color: gray;
+            background-color: rgb(50, 50, 50);
+        }
+        textarea:hover{
+            border-color: rgb(241, 241, 241);
+        }
+        button{
+            color: white;
+            background-color: green;
+            font-size: 15px;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            margin-left: 40%;
+            width: 100px;
+            margin-top: 15px;
+        }
+        button:hover{
+            color: black;
+            border-color: white;
+        }
+    </style>
 </head>
 <body>
+<<<<<<< HEAD
     <h1>Contact Page</h1>
     <div></div>
+=======
+    <h1>CONTACT PAGE</h1> <hr>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Contact For Us</legend>
+            <label for="name">Name* :</label>
+            <br>
+            <input type="text" name="name" class="name" placeholder="Steve">
+            <input type="text" name="name" class="name" placeholder="Jobs">
+            <br><br>
+            <label for="email">Email Address* :</label>
+            <br>
+            <input type="email" name="email" placeholder="user@gmail.com">
+            <br><br>
+            <label for="">Phone* :</label>
+            <br>
+            <input type="number" name="phone" placeholder="+880 xxxx xxxxxx">
+            <br><br>
+            <label for="message">Message* :</label>
+            <br>
+            <textarea name="message" id="" cols="30" rows="5" placeholder="Enter Your Message"></textarea>
+            <br>
+            <button type="submit" name="submit">Submit</button>
+        </fieldset>
+    </form>
+>>>>>>> c2cc40e0bb98456ac569912f843a6b8944b00d31
 </body>
 </html>
