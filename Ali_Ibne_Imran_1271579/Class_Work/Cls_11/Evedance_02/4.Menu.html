@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu{
+            float: left;
+            background-color: brown;
+            width: 150px;
+            height: 500px;
+        }
+        a{
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            margin-top: 20px;
+            color: white;
+            font-size: 20px;
+        }
+        a:hover{
+            color: black;
+        }
+        .frame,iframe{
+            float: left;
+            width: 80%;
+            height: 500px;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="1.ProductEntry.html" target="content">P_Entry</a>
+        <a href="2.Text.html" target="content">Text</a>
+        <a href="3.ProductList.html" target="content">P_List</a>
+    </div>
+    <div class="iframe">
+        <iframe src="1.ProductEntry.html" frameborder="1" name="content"></iframe>
+    </div>
+</body>
+</html>

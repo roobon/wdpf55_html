@@ -8,35 +8,37 @@
 </head>
 <body>
     <h3>Student Information</h3>
+    <fieldset>
+        <legend>Student Status</legend>
     <form action="">
-        <label for="">Student's Name</label>
-        <input type="text"><br><br>
-        <label for="">Birth Date</label>
+        <label for="">Student's Name:</label>
+        <input type="text" ><br><br>
+        <label for="">Birth Date:</label>
         <input type="date"><br><br>
-        <label for="">Gender</label><br>
+        <label for="">Gender:</label><br>
         <label for="">Male</label>
-        <input type="radio" name="Gender">
+        <input type="radio" name="Gender" value="Male">
         <label for="">Female</label>
-        <input type="radio" name="gender"><br><br>
+        <input type="radio" name="Gender" value="Female"><br><br>
         <fieldset>
             <legend>Present Address</legend>
             Division:
              <select name="Division" id="">
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
+                <option>Dhaka</option>
+                <option>Chitagoang</option>
+                <option>Khulna</option>
+                <option>Sylet</option>
+                <option>Rajshahi</option>
+                <option>Borishal</option>
             </select><br><br>
             District:
              <select name="District" id="">
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
+                <option>Dhaka</option>
+                <option>Comilla</option>
+                <option>Noakhali</option>
+                <option>bikrampur</option>
+                <option>Kishorganj</option>
+                <option>Bandarban</option>
             </select><br><br>
             Address: <br><textarea name="Address" id="" cols="30" rows="10"></textarea>
         </fieldset><br><br>
@@ -67,8 +69,16 @@
             <option>O+</option>
             <option>O-</option>
         </select><br><br>
-        Course Name: <input type="checkbox">DD <input type="checkbox">WDPF <input type="checkbox">GAVE <input type="radio">C#<br><br>
-        Status: <input type="radio">married <input type="radio">single
+        Course Name: <input type="checkbox">DD 
+        <input type="checkbox">WDPF 
+        <input type="checkbox">GAVE 
+        <input type="radio">C#
+        <br><br>
+        Status: <input type="radio" name="Status" value="married" >married 
+        <input type="radio" name="Status" value="single">single <br><br>
+        <input type="submit" value="Apply">
+        <input type="reset" value="Refresh">
+    </fieldset>
     </form>
 </body>
 </html>
