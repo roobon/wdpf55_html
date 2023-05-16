@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <style>
+        table{
+            margin: 200px auto;
+            
+        }
+        table, tr, td{
+            text-align: center;
+            border-collapse: collapse;
+            width: 500px;
+        }
+        .th_class{
+            background-color: royalblue;
+            color: #fff;
+        }
+        .tr_class{
+            background-color: rgb(172, 172, 241);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption style="text-align: left; color: royalblue;">Product List:</caption>
+        <tr class="th_class">
+            <th>Type</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Imported</th>
+        </tr>
+        <tr class="tr_class">
+            <td rowspan="3" style="background-color: yellow;">food</td>
+            <td>Pringles chip</td>
+            <td>125</td>
+            <td>Y</td>
+        </tr>
+        <tr class="tr_class">
+            <!-- <td></td> -->
+            <td>Dry Cake</td>
+            <td>150</td>
+            <td>N</td>
+        </tr>
+        <tr class="tr_class">
+            <!-- <td></td> -->
+            <td>Mr. Cookies</td>
+            <td>12</td>
+            <td>N</td>
+        </tr>
+    </table>
+</body>
+</html>
