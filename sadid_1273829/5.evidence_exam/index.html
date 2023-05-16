@@ -5,17 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            background-color: bisque;
+            height: 100vh;
+            width: 20%;
+            float: left;
+        }
+        nav ul{
+            margin: 1rem 0;
+        }
+        nav ul li{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            list-style-type: none;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: rgb(119, 118, 118);
+            transition: ease-in-out .2s;
+        }
+        nav ul li a:hover{
+            text-decoration: underline;
+            font-size: 1.1rem;
+            color: black;
+        }
+        iframe{
+            height: 100vh;
+            width: 80%;
+            border: 17px solid bisque;
+        }
+    </style>
 </head>
 <body>
     <div>
-        <ul>
-            <li><a href="index.html" target="myFrame">Home</a></li>
-            <li><a href="weather_table.html" target="myFrame">Weather Table</a></li>
-            <li><a href="admission_form.html" target="myFrame">Admission Form</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="weather_table.html" target="myFrame">Weather Table</a></li>
+                <li><a href="admission_form.html" target="myFrame">Admission Form</a></li>
+            </ul>
+        </nav>
     </div>
     <div>
-        <iframe src="admission_form.html" name="myFrame"></iframe>
+        <iframe src="weather_table.html" name="myFrame"></iframe>
     </div>
 </body>
 </html>
