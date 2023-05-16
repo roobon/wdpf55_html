@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+     
+
+        nav {
+            float: left;
+            margin-right: 30px;
+            height: 100px;
+            background-color: rgb(127, 255, 217);
+            padding: 15px;
+            border-radius: 20px;
+            border: 2px solid rgba(0, 0, 0, 0.404);
+            display: flex;
+            align-items: center;
+        }
+
+        iframe {
+            width: 700px;
+            height: 600px;
+            background-color: rgba(89, 211, 248, 0.555);
+            border-radius: 20px;
+            padding: 10px;
+        }
+        button a {
+            text-decoration: none;
+        }
+
+        button {
+            padding: 5px;
+            border-radius: 5px;
+            background-color: rgba(25, 221, 146, 0.534);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <button>
+            <a href="student_form.html" target="myframe">HOME</a>
+        </button> 
+        <button  style="margin-left: 5px; margin-right: 5px;">
+            <a href="weather.html" target="myframe">About</a> 
+        </button> 
+       
+    </nav>
+
+    <div>
+        <iframe src="student_form.html" name="myframe" frameborder="1"></iframe>
+    </div>
+</body>
+
+</html>
