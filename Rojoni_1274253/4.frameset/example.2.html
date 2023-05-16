@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #tbl1{
+            width:500px
+        }
+       #tbl1, td {
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+        #tbl1 , td {
+             padding:25px;
+        }
+        #tbl2 td{
+            padding:25px;
+        }
+        #tbl2{
+            border-spacing: 25px;
+            border-collapse: collapse;
+        }
+       
+       
+
+
+    </style>
+</head>
+<body>
+    <h3>Table wiyh colspan</h3>
+    <table id="tbl1">
+        <tr>
+            <td colspan="2">A</td>
+            
+            <td colspan="2">C</td>
+            
+        </tr>
+        <tr>
+            <td colspan="4">E</td>
+            
+        </tr>
+        <tr>
+            <td>I</td>
+            <td colspan="3">J</td>
+           
+        </tr>
+        <tr>
+            <td>M</td>
+            <td>N</td>
+            <td colspan="2">O</td>
+            
+        </tr>
+    </table>
+    <h3>Table with Rowspan</h3>
+    <table id="tbl2">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td rowspan="3">C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td rowspan="2">F</td>
+            
+            <td rowspan="2">H</td>
+        </tr>
+        <tr>
+            <td>I</td>
+           
+           
+            
+        </tr>
+        <tr>
+            <td>M</td>
+            <td>N</td>
+            <td>O</td>
+            <td>P</td>
+        </tr>
+    </table>
+</body>
+</html>
