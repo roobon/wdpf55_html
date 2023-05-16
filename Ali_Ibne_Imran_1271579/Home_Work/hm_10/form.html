@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/">
+
+        <legend>A Sample Form Legend</legend>
+    
+        <label for="name">Name: </label><br>
+        <input type="text" value="Name" name="Name" /><br>
+    
+        <label for="email">Email: </label><br>
+        <input type="email" value="Email" name="Email" /><br>
+    
+        <label>Button: </label><br>
+        <input type="button" value="Button" name="button" /><br>
+    
+        <label>Single Checkbox: 
+        <input type="checkbox" value="checkbox1" name="button" /></label><br>
+    
+        <fieldset>
+            <legend>Group of Checkboxes: </legend>
+            <label>Checkbox 1: 
+                <input type="checkbox" value="checkbox1" name="checkgroup[]" /></label><br>
+            <label>Checkbox 2: 
+                <input type="checkbox" value="checkbox2" name="checkgroup[]" /></label><br>
+            <label>Checkbox 3: 
+                <input type="checkbox" value="checkbox3" name="checkgroup[]" /></label><br>
+            <label>Checkbox 4: 
+                <input type="checkbox" value="checkbox4" name="checkgroup[]" /></label>
+        </fieldset>
+    
+        <label>Color: </label><br>
+        <input type="color" value="color" name="color" /><br>
+    
+        <label>Date: </label><br>
+        <input type="date" value="date" name="date" /><br>
+    
+        <label>Date, Time (Local): </label><br>
+        <input type="datetime-local" value="datetime" name="datetime" /><br>
+    
+        <label>File: </label><br>
+        <input type="file" value="file" name="file" /><br>
+    
+        <input type="hidden" value="hidden" name="hidden" /><br>
+    
+        <label>Image: </label>
+        <input type="image" value="image" name="image" />
+    
+        <label>Month: </label><br>
+        <input type="month" value="month" name="month" /><br>
+    
+        <label>Number: </label><br>
+        <input type="number" value="number" name="number" /><br>
+    
+        <label>Password: </label><br>
+        <input type="password" value="password" name="password" /><br>
+    
+        <label>Single Radio: 
+        <input type="radio" value="radio" name="radio" /></label>
+    
+        <fieldset>
+            <legend>Group of Radios: </legend>
+            <label>Radio 1: 
+                <input type="radio" value="radio1" name="radiogroup" /></label><br>
+            <label>Radio 2: 
+                <input type="radio" value="radio2" name="radiogroup" /></label><br>
+            <label>Radio 3: 
+                <input type="radio" value="radio3" name="radiogroup" /></label><br>
+            <label>Radio 4: 
+                <input type="radio" value="radio4" name="radiogroup" /></label><br>
+        </fieldset>
+    
+        <label>Range: </label><br>
+        <input type="range" value="range" name="range" /><br>
+    
+        <label>Reset: </label><br>
+        <input type="reset" value="reset" name="reset" /><br>
+    
+        <label>Time: </label><br>
+        <input type="time" value="time" name="time" /><br>
+    
+        <label>Search: </label><br>
+        <input type="search" value="search" name="search" /><br>
+    
+        <label>Tel: </label><br>
+        <input type="tel" value="tel" name="tel" /><br>
+    
+        <label>Text: </label><br>
+        <input type="text" value="text" name="text" /><br>
+    
+        <label>URL: </label><br>
+        <input type="url" value="url" name="url" /><br>
+    
+        <label>Week: </label><br>
+        <input type="week" value="week" name="week" /><br><br>
+    
+        <button>This is a button!</button><br><br>
+    
+        <label>Select 1: </label>
+        <select name="select" size="1">
+            <option>Test</option>
+            <option>Test</option>
+        </select><br><br>
+    
+        <label>Select 2: </label>
+        <select name="select1" size="3">
+            <option>Test</option>
+            <option>Test</option>
+        </select><br><br>
+    
+        <label>Select Multiple: </label>
+        <select name="select2" size="3" multiple>
+            <option>Test</option>
+            <option>Test</option>
+        </select><br><br>
+    
+        <label>Select Groups: </label>
+        <select name="select3" size="1" multiple>
+            <optgroup label="First Group">
+                <option>Test</option>
+                <option>Test</option>
+            </optgroup>
+            <optgroup label="Second Group">
+                <option>Test</option>
+                <option>Test</option>
+            </optgroup>
+            <optgroup label="Third Group">
+                <option>Test</option>
+                <option>Test</option>
+            </optgroup>
+        </select><br><br>
+    
+        <fieldset>
+            <legend>Datalist: </legend>
+            <input type="text" name="datalist" list="samplelist">
+            <datalist id="samplelist">
+                <option>Something</option>
+                <option>Something else</option>
+                <option>Another thing</option>
+            </datalist>
+        </fieldset>
+    
+        <label>A textarea!</label><br>
+        <textarea name="textarea">A paragraph in here</textarea>
+    </form>
+</body>
+</html>
