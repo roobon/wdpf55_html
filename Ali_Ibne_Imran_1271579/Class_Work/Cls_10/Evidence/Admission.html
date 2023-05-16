@@ -5,55 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        form{
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
+    <h1>Admission Form</h1>
     <form action="">
-        <table>
-            <tr>
-                <td><label for="student_name">Student's Name :</label></td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td><label for="dob">Birth Date :</label></td>
-                <td><input type="date"></td>
-            </tr>
-            <tr>
-                <td><label for="gender">Gender :</label></td>
-                <td><input type="checkbox"> Male
-                    <input type="checkbox"> Female
-                    <input type="checkbox"> Other
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr><tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            
-            
-            <br><br>
-            
-            <br><br>
+            <label for="">Name</label>
+            <input type="text"><br><br>
+            <label for="">DoB</label>
+            <input type="date"><br><br>
             <label for="gender">Gender :</label>
-            
+            <input type="radio" name="radio"> Male
+            <input type="radio" name="radio"> Female
             <br><br>
             <label for="present_address">Present Address :</label><br>
             <textarea name="" id="" cols="30" rows="5"></textarea>
@@ -119,7 +89,9 @@
             <input type="checkbox"> D <br>
             <input type="checkbox"> E <br>
             <input type="checkbox"> E <br>
-            <input type="checkbox"> F <br>
+            <input type="checkbox"> F <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
         </table>
     </form>
 </body>
