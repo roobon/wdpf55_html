@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <style>
-     
+
+
 
         nav {
             float: left;
             margin-right: 30px;
             height: 600px;
-            background-color: rgb(127, 255, 217);
+            background-color: rgba(127, 255, 217, 0.555);
             padding: 15px;
             border-radius: 20px;
             border: 2px solid rgba(0, 0, 0, 0.404);
@@ -25,32 +26,39 @@
             height: 600px;
             background-color: rgba(89, 211, 248, 0.555);
             border-radius: 20px;
-            padding: 10px;
+            padding: 30px;
+
         }
         button a {
             text-decoration: none;
         }
 
         button {
-            padding: 5px;
+            padding: 10px;
             border-radius: 5px;
             background-color: rgba(25, 221, 146, 0.534);
         }
+
+        .iframe-div{
+            padding: 20px;
+            width: 1000px;
+        }
+      
     </style>
 </head>
 
 <body>
     <nav>
         <button>
-            <a href="student_form.html" target="myframe">HOME</a>
+            <a href="student_form.html" target="myframe">Table</a>
         </button> 
         <button  style="margin-left: 5px; margin-right: 5px;">
-            <a href="weather.html" target="myframe">About</a> 
+            <a href="weather.html" target="myframe">Form</a> 
         </button> 
        
     </nav>
 
-    <div>
+    <div id="iframe-div">
         <iframe src="student_form.html" name="myframe" frameborder="1"></iframe>
     </div>
 </body>
