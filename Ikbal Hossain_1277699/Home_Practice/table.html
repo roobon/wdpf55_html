@@ -3,22 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather table</title>
+    <style>
+        table,tr,th,td { border: 1px solid black;
+             border-collapse: collapse;
+             text-align: center;
+            }
+    </style>
 </head>
 <body>
-    <h3>Table with 4 rows and 4 colums=ns</h3>
     <table>
+        <caption> <strong>Weather Station</strong> </caption>
         <tr>
-            <td>ID</td>
-            <td>Item</td>
-            <td>Quantity</td>
-            <td>Price</td>
-          </tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
+            <th rowspan="2">Station</th>
+            <th colspan="2">Temperature</th>
+            
+            <th rowspan="2">Humanity</th>
+            <th rowspan="2">Weather</th>
+        </tr>
+        <tr>
+           
+            <th>Max</th>
+            <th>Min</th>
+            
+           
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>24</td>
+            <td>19</td>
+            <td>60%</td>
+            <td>cloudy</td>
+        </tr>
+        <tr>
+            <td>Germany</td>
+            <td>5</td>
+            <td>-1</td>
+            <td>70%</td>
+            <td>Rainy</td>
+        </tr>
     </table>
 </body>
 </html>
