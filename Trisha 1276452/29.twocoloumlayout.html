@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #menu{
+            height: 532.3px;
+            width: 150px;
+            padding: 20px;
+            background-color: bisque;
+            float: left;
+        }
+        #main{
+            width:800px;
+            height:530px;
+            border: 1px solid black;
+            float:left;
+            padding: 20px;}
+            #menu ul li { 
+                padding: 5px 0;
+                list-style-type: none;
+                width: 150px;
+            }
+             #menu ul li a {
+                text-decoration: none;
+                background-color: blueviolet;
+                color: #fff;
+             }
+
+             #container {
+                margin: 0 auto;
+             }
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <!-- Left menu -->
+        <nav id="menu">
+            <ul>
+                <li><a href="table_practice.html" target="myFrame">Home</a></li>
+                <li><a href="lists.html"target="myFrame">Product List</a></li>
+                <li><a href="Practice_form.html"target="myFrame">contract Form</a></li>
+            </ul>
+        </nav>
+        <!-- Content -->
+        <div id="main">
+            <iframe src="table_practice.html" frameborder="0" name="myFrame" width="800px" height="530px"></iframe>
+            
+        </div>
+    </div>
+</body>
+</html>
