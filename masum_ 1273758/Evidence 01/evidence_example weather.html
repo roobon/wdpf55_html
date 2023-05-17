@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidence table</title>
+    <style>
+        table ,td,th {border: 2px solid red; }
+        table{width: 500px;
+             height: 300px;
+              text-align: center;
+               border-collapse:collapse; 
+               color: rgb(15, 210, 15);
+            } 
+            td:hover{
+                background-color: lightgreen;
+            }
+            th:hover{background-color: brown;
+
+            }
+
+    </style>
+</head>
+<body>
+  <h1>Weather Station</h1>
+  <table>
+    <tr>
+        <th rowspan="2">Station</th>
+        <th colspan="2">Temperature</th>
+        
+        <th rowspan="2">Humidity</th>
+        <th rowspan="2">Weather</th>
+    </tr>
+    <tr>
+        
+        <th>Max</th>
+        <th>Min</th>
+       
+        
+    </tr>
+    <tr>
+        <td>USA</td>
+        <td>24</td>
+        <td>19</td>
+        <td>60%</td>
+        <td>Cloudy</td>
+    </tr>
+    <tr>
+        <td>Germany</td>
+        <td>5</td>
+        <td>-1</td>
+        <td>70%</td>
+        <td>Rainy</td>
+    </tr>
+  </table>   
+
+</body>
+</html> 

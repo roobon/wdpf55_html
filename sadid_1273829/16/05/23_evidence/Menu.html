@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            height: 100vh;
+            width: 20%;
+            float: left;
+            background-color: aquamarine;
+        }
+        nav ul{
+            margin: 50px;
+        }
+        nav ul li{
+            list-style-type: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="text.html" target="myFrame">Paragraph</a></li>
+                <li><a href="ProductEntry.html" target="myFrame">Product Entry</a></li>
+                <li><a href="ProductList.html" target="myFrame">Product List</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <iframe src="text.html" frameborder="0" name="myFrame" height="700px" width="80%"></iframe>
+    </div>
+</body>
+</html>

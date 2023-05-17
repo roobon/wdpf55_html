@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        table{
+            border: 1px solid black;
+            margin: auto;
+        }
+        td{
+            font-size: 20px;
+            padding-left: 10px;
+            padding-top: 5px;
+        }
+        input{
+            padding: 5px;
+            width: 200px;
+        }
+        .gender-hobbies td{
+            font-size: 18px;
+        }
+        .gender-hobbies input{
+            width: 15px;
+        }
+        .cancel input{
+            background-color: red;
+            width: 100px;
+            border: none;
+            color: white;
+            margin-bottom: 10px; 
+            margin-left: 20px;
+            padding: 10px;
+        }
+        .create input{
+            float: right;
+            background-color: green;
+            width: 100px;
+            border: none;
+            color: white;
+            margin-bottom: 10px; 
+            margin-right: 20px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Create Account</h1>
+    <form action="">
+        <table>
+            <tr>
+                <td>First name*</td>
+                <td>Last name*</td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="enter your first name"></td>
+                <td><input type="text" placeholder="enter your last name"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Email*</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="email" placeholder="enter your email"></td>
+            </tr>
+            <tr>
+                <td>Password*</td>
+                <td>Conform Password*</td>
+            </tr>
+            <tr>
+                <td><input type="password" placeholder="enter your password"></td>
+                <td><input type="password" placeholder="enter your password again" ></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Hobbies</td>
+            </tr>
+            <tr class="gender-hobbies">
+                <td>
+                    <input type="radio" name="radio"> Male
+                    <input type="radio" name="radio"> Female
+                </td>
+                <td>
+                    <input type="checkbox"> Music
+                    <input type="checkbox"> Sports
+                    <input type="checkbox"> Travel
+                    <input type="checkbox"> Movies
+                </td>
+            </tr>
+            <tr>
+                <td>Source of Income</td>
+                <td>Income</td>
+            </tr>
+            <tr>
+                <td>
+                    <select>
+                        <option>Employed</option>
+                        <option>Unemployed</option>
+                    </select>
+                </td>
+                <td><input type="range" min="20000">20K</td>
+            </tr>
+            <tr>
+                <td>Upload Profile Picture</td>
+                <td>Age</td>
+            </tr>
+            <tr>
+                <td><input type="file"></td>
+                <td><input type="text" value="18"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Bio</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea name="" id="" cols="70" rows="3"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="cancel"><input type="reset" value="Cancel"></td>
+                <td class="create"><input type="submit" value="Create"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

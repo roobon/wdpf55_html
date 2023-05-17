@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from</title>
+    <style>
+        .flex-div{
+            display: flex;
+        }
+        #div-1{
+            margin-right: 20px;
+        }
+        #div-2{
+            margin-right: 20px;
+        }
+        .flex-div2{
+            margin-right: 40px;
+        }
+        .password{
+            display: flex;
+        }
+        #div-3{
+            margin-left:0px;
+        }
+        #div-4{
+            margin-left: 20px;
+        }
+        .Genderh{
+            display: flex;
+        }
+        #Hobbies{
+            margin-left: 60px;
+        }
+        #gender{
+            margin-left: 0px ;
+        }
+        .income{
+            display: flex;
+        }
+        #range{
+            margin-left: 80px;
+        }
+        .picture{
+            display: flex;
+        }
+        #age{
+            margin: left 1px
+        }
+
+    </style>
+</head>
+<body>
+    
+    <fieldset style="height: auto; width: 60%;">
+        <h2>Create Account</h2>
+    
+    
+    <form action="" style="color: green;">
+ <div class="flex-div">   
+    <div id="div-1">
+        <label for="fname">First Name*</label><br>
+        <input type="text" placeholder="Enty your first name">
+    </div>
+    <div id="div-2">
+        <label for="lname">Last Name*</label><br>
+        <input type="text" placeholder="Enty your last name">
+    </div>
+</div> 
+    <div class="flex-div2">
+        <label for="Email">Email*</label><br>
+        <input type="text"  placeholder="Enty your Email">
+    </div>
+    <div class="password">
+    <div id="div-3">
+        <label for="Password">Password*</label><br>
+        <input type="password"  placeholder="Enty your Password">
+    </div>
+    <div id="div-4">
+        <label for="CPassword">Confim Password*</label><br>
+        <input type="password"  placeholder="Enty your Password">
+    </div>
+</div>
+<div class="Genderh">
+    <div in="gender">
+        <label for="Gender">Gender</label><br>
+        <input type="radio"  name="G">Male
+        <input type="radio"  name="G">FeMale
+    </div>
+    <div id="Hobbies">
+        <label for="Hobbies">Hobbies</label><br>
+        <input type="checkbox" name="Music">Music
+        <input type="checkbox" name="Sports">Sports
+        <input type="checkbox" name="Travel">Travel
+        <input type="checkbox" name="Movies">Movies
+    </div>
+</div>
+<div class="income">
+    <div id="Source">
+        <label for="Source of Inome">Source of Inome</label><br>
+        <select name="Inome" id="">
+            <option value="">Employed</option>
+            <option value="">Business</option>
+            <option value="">Teaching</option>
+        </select>
+    </div>
+    <div id="range">
+        <label for="Income">Income</label> <br>
+        <input type="range" max="20" min="0">20k
+    </div>
+</div>
+<div class="picture">
+    <div>
+        <label for="Upload Profile Picture">Upload Profile Picture</label><br>
+        <input type="file" placeholder="Choose File">
+    </div>
+    <div id="age">
+        <label for="Age">Age</label><br>
+        <input type="number">
+    </div>
+</div>
+
+    <div>
+        <label for="BIO">Bio</label><br>
+        <textarea name="" id="" cols="20" rows="10"></textarea>
+    </div>
+    <input type="submit" value="Create">
+        
+    </form>
+</fieldset>
+</body>
+</html>
