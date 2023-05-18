@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tg, td, tr, th{
+            /* border: 1px solid black; */
+            border-collapse: collapse;
+            /* padding: 10px; */
+        }
+        .tg{
+            width: 500px;
+            height: 200px;
+            padding: 5px;
+        }
+        
+        .heading{
+            background-color: blue;
+            color: rgb(255, 255, 255);
+        }
+        .food{
+            background-color: yellow;
+        }
+        .color{
+            background-color: rgb(227, 244, 255);
+        }
+    </style>
+</head>
+<body>
+    <caption>Product List:</caption>
+    <table class="tg">
+        <colgroup>
+        </colgroup>
+        <tr class="heading">
+            <td>Type</td>
+            <td>Name</td>
+            <td>Price</td>
+            <td>Imported</td>
+        </tr>
+        <tr>
+            <td class="food" rowspan="3">Food</td>
+            <td class="color">Pringles Chips</td>
+            <td class="color">125</td>
+            <td class="color">Y</td>
+        </tr>
+        <tr>
+           
+            <td class="color">Dry Cake</td>
+            <td class="color">150</td>
+            <td class="color">N</td>
+        </tr>
+        <tr>
+           
+            <td class="color">Mr. Cookie</td>
+            <td class="color">12</td>
+            <td class="color">N</td>
+        </tr>
+    </table>
+</body>
+</html>

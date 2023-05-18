@@ -5,15 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{border: 1px solid black; background-color: rgb(168, 202, 168);
+           text-align: center;}
+           h3{color: red;
+        }
+    </style>
 </head>
 <body>
-    <form action="">
+    <div class="container">
+     <form action="">
         <h1>Travel Reservation Form</h1>
-        <h3>Re</h3>
-        <label for="fname">First Name*:</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <h3>*Required</h3>
+        <label for="fname">Full Name*:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="First name LastName"><br>
         <label for="email">Email Address*:</label><br>
-        <input type="email" id="email" name="email"><br>
+        <input type="email" id="email" name="email" placeholder="Email Address"><br>
         <label for="package" id="package" name="package">Select Tour Package*:</label><br>
         <select name="package" id="">
             <option value="">Goa</option>
@@ -24,15 +31,23 @@
             <option>Raipur</option>
         </select><br>
         <label for="adate" id="adate" name="adate">Arrival Date*:</label><br>
-        <input type="dte" id="dte" name="dte" placeholder="m/d/y"><br>
+        <input type="text" id="dte" name="dte" placeholder="m/d/y"><br>
         <label for="person" id="person" name="person">Name of person*:</label><br>
         <input type="psn" id="psn" placeholder="UNKNOWN TYPE"><br>
-        <label for="person" id="person" name="person">Name of person*:</label>
-        <input type="text" name="person" id=""><br><br>
+        <label for="">What you want to avail*</label><br>
+        Boarding<input type="checkbox" name="checkbox"><br>
+        Fooding<input type="checkbox" name="checkbox"><br>
+        Sight seeing<input type="checkbox" name="checkbox"><br>
+        <label for="">Discount Coupon Code </label><br>
+        <input type="text" name="Coupon" placeholder="UNKNOWN_TYPE"><br>
+        <label for="">Terms and conditions</label>
+        <input type="radio" name="yes">I agree<br>
+        <input type="radio" name="yes">I disagree<br>
+        <button type="submit" name="submit">Complete Reservation</button>
 
 
 
-
-    </form>
+      </form>
+    </div>
 </body>
 </html>

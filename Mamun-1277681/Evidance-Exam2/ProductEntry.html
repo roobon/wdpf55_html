@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Entry</title>
+</head>
+<body>
+  <h2>Product Details</h2>
+  <fieldset>
+    <legend>Product Entry</legend>
+  <form>
+    <label for="productID">ID:</label>
+    <input type="text" id="productID" name="productID" required><br><br>
+
+    <label for="productName">Name:</label>
+    <input type="text" id="productName" name="productName" required><br><br>
+
+    <label for="productType">Type:</label>
+    <select id="productType" name="productType" required>
+      <option value="food">Food</option>
+      <option value="soap">Soap</option>
+      <option value="shampoo">Shampoo</option>
+    </select><br><br>
+
+    <label for="imported">Imported:</label>
+    <input type="checkbox" id="imported" name="imported"><br><br>
+
+    <label for="productPrice">Price:</label>
+    <input type="text" id="productPrice" name="productPrice" required><br><br>
+
+    <label for="manufacturer">Manufacturer:</label><br>
+    <textarea id="manufacturer" name="manufacturer" rows="4" cols="30" required></textarea><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="Reset" value="Reset">
+  </form>
+</fieldset>
+</body>
+</html>

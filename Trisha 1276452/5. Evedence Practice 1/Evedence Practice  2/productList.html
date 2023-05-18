@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            margin: 20px auto;
+        }
+
+        table,
+        tr,
+        td {
+            border-collapse: collapse;
+            width: 500px;
+            vertical-align: middle;
+            text-align: center;
+        }
+td{
+    padding: 10px;
+}
+        .heading {
+            background-color: royalblue;
+            color: #fff;
+        }
+
+        .column-color {
+            background: yellow;
+        }
+
+        .tr_class {
+            background-color:rgb(172, 172, 241);
+            }
+            .custom-color{
+    background-color: #52ece0;
+}
+    </style>
+</head>
+
+<body>
+    <caption style="text-align: left;">Product List</caption>
+    <table>
+        <tr class="heading">
+            <th>Type</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>IMported</th>
+        </tr>
+        <tr class="custom-color">
+            <td rowspan="3" class="column-color">Food</td>
+            <td>Pringles Chips</td>
+            <td>125</td>
+            <td>Y</td>
+        </tr>
+        <tr class="custom-color">
+            <td>Dry Cake</td>
+            <td>150</td>
+            <td>N</td>
+
+        </tr>
+        <tr class="custom-color">
+            <td>Mr.cookie</td>
+            <td>12</td>
+            <td>N</td>
+
+        </tr>
+    </table>
+</body>
+
+</html>

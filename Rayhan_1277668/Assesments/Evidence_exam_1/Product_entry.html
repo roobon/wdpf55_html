@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       form {
+        margin-left: 50px;
+       }
+
+        select:hover {
+            background-color: rgba(153, 50, 204, 0.61);
+            -ms-transform: scale(1.5);
+            /* IE 9 */
+            -webkit-transform: scale(1.5);
+            /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+        input:hover {
+            background-color: rgba(153, 50, 204, 0.61);
+            -ms-transform: scale(1.5);
+            /* IE 9 */
+            -webkit-transform: scale(1.5);
+            /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+        textarea:hover {
+            background-color: rgba(153, 50, 204, 0.61);
+            -ms-transform: scale(1.5);
+            /* IE 9 */
+            -webkit-transform: scale(1.5);
+            /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+
+        input, textarea, select {
+            transition: transform .8s;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <h2>
+        Product Entry Form
+    </h2>
+    
+    <form action="">
+        ID : 
+        <input type="text">   <br> <br>
+        Name :
+        <input type="text"> <br> <br>
+        Type :
+        <select name="product" id="">
+            <option>food</option>
+            <option>soap</option>
+            <option>Shampoo</option>
+        </select>
+        <br>
+        <br>
+        Imported  <input type="checkbox" name="imported" id=""> <br> <br>
+
+        Price : 
+        <input type="text"> <br> <br>
+
+        Manufacturer : 
+        <br>
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+
+        <br> <br>
+        <input type="submit">
+
+    </form>
+</body>
+</html>
