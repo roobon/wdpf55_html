@@ -20,8 +20,8 @@ nav{
     justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
     /* background-color: black; */
 }
 .logo{
@@ -59,7 +59,8 @@ nav{
 button{
     border: none;
     background: orangered;
-    padding: 7px 12px;
+    width: 80px;
+    height: 40px;
     border-radius: 20px;
     color: white;
     font-weight: bold;
@@ -71,6 +72,13 @@ button:hover{
     cursor: pointer;
     color: orangered;
     background-color: white;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button a:hover{
+    color: orangered;
 }
 .footer{
     /* height: 200px; */

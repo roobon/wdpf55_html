@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+}
+.contact{
+    border-bottom: 2px solid black;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    text-align: left;
+    }
+span{
+    background-color: black;
+    color: #fff;
+    padding: 12px;
+    font-size: 25px;
+    line-height: 30px;
+    display: inline-block;
+    }
+p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
