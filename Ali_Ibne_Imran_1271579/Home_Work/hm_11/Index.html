@@ -14,8 +14,18 @@
             width: 150px;
         }
         a{
-            text-decoration: none;
             display: block;
+            text-decoration: none;
+            text-align: justify;
+            font-weight: bold;
+            color: black;
+            margin-top: 20px;
+            margin-left: 30px;
+            font-size: 20px;
+        }
+        a:hover{
+            color: rgb(255, 115, 0);
+            font-size: 22px;
         }
         .frame iframe{
             float: left;
@@ -26,11 +36,11 @@
 </head>
 <body>
     <div class="menu">
-        <a href="Account.html">Account</a>
-        <a href="Table.html">Table</a>
+        <a href="Account.html" target="content">Account</a>
+        <a href="Table.html" target="content">Table</a>
     </div>
     <div class="frame">
-        <iframe src="Account.html" frameborder="1"></iframe>
+        <iframe src="Account.html" frameborder="0" name="content"></iframe>
     </div>
 </body>
 </html>
