@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table, tr, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 500px;
+            height: 50px;
+            text-align: center;
+            font-weight: 800;
+        }
+        .thead {
+            background-color: royalblue;
+            color: white;
+        }
+       .food {
+        background-color: #ffff00;
+       }
+       table tr{
+        background-color: rgb(153, 194, 196);
+       }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>This is a table</caption>
+        <tr class="thead">
+            <td>Type</td>
+            <td>Name</td>
+            <td>Price</td>
+            <td>Imported</td>
+        </tr>
+        <tr>
+            <td class="food" rowspan="3">Food</td>
+            <td>Pringles</td>
+            <td>125</td>
+            <td>Y</td>
+        </tr>
+        <tr>
+            <!-- <td >Food</td> -->
+            <td>Dry Cake</td>
+            <td>150</td>
+            <td>N</td>
+        </tr>
+        <tr>
+            <!-- <td >Food</td> --> 
+            <td>Mr. Cookie</td>
+            <td>12</td>
+            <td>M</td>
+        </tr>
+    </table>
+</body>
+</html>
