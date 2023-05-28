@@ -10,9 +10,11 @@
     height: 100vh;
     background-size: cover;
     background-position: center;
+    
 }
 .menu{
     background-color: black;
+    
 }
 nav{
     display: flex;
