@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        form {font: bold ;}
+        form{
+            margin: auto
+            textalign center;
+        }
     </style>
 </head>
 <body>
@@ -14,8 +17,8 @@
     
     <form action="">
         <label for="fname">Full Name: </label><br>
-        <input type="text" placeholder="Enter your full name">
-        <label for="lname">Last Name: </label>
+        <input type="text" placeholder="Enter your full name"><br>
+        <label for="lname">Last Name: </label><br>
         <input type="text" placeholder="enter your last name"><br>
         <label for="email">Email: </label><br>
         <input type="text" placeholder="enter your email"><br>
@@ -34,13 +37,16 @@
         <input type="checkbox" name="checkbox">Movie<br>
         <label for="source of income">Source of income: </label><br>
         <input type="text"><br>
+        <label for="income"> income: </label><br>
+        <input type="range">20k<br>
         <label for="upc">Upload Profile Picture: </label><br>
         <input type="file" placeholder="Choose file"><br>
         <label for="age">AGE: </label><br>
         <input type="number"><br>
         <label for="bio">Bio: </label><br>
-        <input type="textarea" rows="40" cols="40"><br>
-        <label for="submit">Submit: </label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea><br>
+        
+        
         <input type="submit">
 
 

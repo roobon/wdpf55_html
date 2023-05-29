@@ -1,0 +1,22 @@
+.width{
+    background-color: antiquewhite;
+    width: 1000px;
+    }
+.maxwidth{
+    background-color: beige;
+    max-width: 1000px;
+}
+.height{
+    background-color: rgb(30, 209, 209);
+    height: 70px;
+}
+.vheight{
+    background-color: aqua;
+    height: 30vh;
+}
+.overflw{
+    width: 500px;
+    height: 300px;
+    background-color: cornflowerblue;
+    overflow:scroll;
+}

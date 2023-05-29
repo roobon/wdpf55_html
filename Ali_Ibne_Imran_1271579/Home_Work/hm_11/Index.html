@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu{
+            float: left;
+            width: 100px;
+            background-color: aquamarine;
+            height: 700px;
+            width: 150px;
+        }
+        a{
+            display: block;
+            text-decoration: none;
+            text-align: justify;
+            font-weight: bold;
+            color: black;
+            margin-top: 20px;
+            margin-left: 30px;
+            font-size: 20px;
+        }
+        a:hover{
+            color: rgb(255, 115, 0);
+            font-size: 22px;
+        }
+        .frame iframe{
+            float: left;
+            width: 80%;
+            height: 700px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="Account.html" target="content">Account</a>
+        <a href="Table.html" target="content">Table</a>
+    </div>
+    <div class="frame">
+        <iframe src="Account.html" frameborder="0" name="content"></iframe>
+    </div>
+</body>
+</html>

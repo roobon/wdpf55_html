@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        #menu {
+            float: left;
+            padding: 30px;
+            margin: 10px;
+            height: 150px;
+            width: 30px;
+            background-color: rgba(145, 131, 131, 0.664);
+        }
+        #content {
+            height: 700px;
+            width: 700px;
+            /* padding: 30px; */
+            border-radius: 30px;
+            
+        }
+        iframe {
+            height: 100%;
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+    <a href="account.html" target="myframe">Account</a>
+    <a href="table.html" target="myframe">Table</a>
+    </div>
+    <div id="content">
+        <iframe src="account.html" frameborder="0" name="myframe"></iframe>
+    </div>
+</body>
+</html>
