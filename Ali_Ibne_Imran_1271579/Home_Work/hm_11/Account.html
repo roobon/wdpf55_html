@@ -15,10 +15,37 @@
         }
         td{
             font-size: 20px;
+            padding-left: 10px;
+            padding-top: 5px;
         }
-
-        .create{
+        input{
+            padding: 5px;
+            width: 200px;
+        }
+        .gender-hobbies td{
+            font-size: 18px;
+        }
+        .gender-hobbies input{
+            width: 15px;
+        }
+        .cancel input{
+            background-color: red;
+            width: 100px;
+            border: none;
+            color: white;
+            margin-bottom: 10px; 
+            margin-left: 20px;
+            padding: 10px;
+        }
+        .create input{
             float: right;
+            background-color: green;
+            width: 100px;
+            border: none;
+            color: white;
+            margin-bottom: 10px; 
+            margin-right: 20px;
+            padding: 10px;
         }
     </style>
 </head>
@@ -52,7 +79,7 @@
                 <td>Gender</td>
                 <td>Hobbies</td>
             </tr>
-            <tr>
+            <tr class="gender-hobbies">
                 <td>
                     <input type="radio" name="radio"> Male
                     <input type="radio" name="radio"> Female
