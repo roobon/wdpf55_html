@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     overflow-x: hidden;
+}
+header{
+     width: 100vw;
+     height: 8vh;
+     background-color: #fff;
+     box-shadow: 0 0 7px grey;
+     display: flex;
+     align-items: center;
+     position: fixed;
+}
+header .img{
+     height: 35px; 
+     width: 45px;
+     display: flex;
+     align-items: center;
+     height: 8vh;
+     margin-left: 30px;
+     cursor: pointer;
+}
+header nav{
+     font-size: .9rem;
+     margin-left: 20px;
+}
+header nav a{
+     margin: 0 20px;
+     font-family: 'Poppins', sans-serif;
+     text-decoration: none;
+     color: #191919;
+}
+header nav a:hover{
+     color: #3f8080;
+}
+section img{
+     width: 100vw;
+     height: 90vh;
+     cursor: pointer;
+}
+.banner2{
+     width: 100vw;
+     height: 85vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #f1f1f1;
+     margin: 50px 0; 
+}
+.banner2 .text{
+     width: 50vw;
+     margin: 0 150px;
+     font-family: 'Poppins', sans-serif;
+}
+.banner2 .text h1{
+     font-size: 2.5rem;
+     text-align: left;
+     line-height: 5rem;
+}
+.banner2 .text p{
+     font-size: 2rem;
+}
+.banner2 .text button{
+     padding: .5rem 2rem;
+     margin: 20px auto;
+     border: .2px solid black;
+     border-radius: .2rem;
+     cursor: pointer;
+}
+.banner2 .image{
+     width: 50vw;
+}
+.banner2 .image>img{
+     width: 500px;
+     height: fit-content;
+     cursor: initial;
+}
+
+
+/* main section starts here */
+h1{
+     font-family: 'Poppins', sans-serif;
+     text-align: center;
+     color: rgb(1, 128, 128);
+     width: 100vw;
+}
+main{
+     width: 100vw;
+     margin: 30px;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+}
+main>div{
+     width: 45%;
+     margin: 10px;
+     border: .2px solid rgb(197, 197, 197);
+     border-radius: .5rem;
+     padding: 15px;
+     display: flex;
+     align-items: center;
+     /* justify-content: center; */
+}
+main>div img{
+     width: 40%;
+}
+main div .details table, tr, td{
+     border: 1px solid rgb(197, 197, 197);
+     border-collapse: collapse;
+}
+main div .details table tr td{
+     border-radius: .3rem;
+     padding: .5rem 1rem;
+     width: 50%;
+}
+footer{
+     background-color: #191919;
+     color: #fff;
+     width: 99vw;
+     height: 6vh;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px 15px;
+     font-size: .9rem;
+}
+footer .copy{
+     margin-left: 20px;
+}
+footer a{
+     color: #f1f1f1;
+     margin-left: 15px;
+     padding-right: 40px;
+}
