@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+ <style>
+    legend {background-color: aqua;}
+    body {text-align: center;}
+ </style>
 <body>
     <form action="">
         <fieldset> <legend>Admission Form</legend>
@@ -13,15 +17,15 @@
             <input type="text"><br><br>
             <label for="dob">Date of Birth</label>
             <input type="date"><br><br>
-            <label for="gender">gender :</label>
-            <input type="checkbox">Male
-            <input type="checkbox">Female
-            <input type="checkbox">Other
+            <label for="gender">Gender :</label>
+            <input type="radio" name="yes">Male
+            <input type="radio" name="yes">Female
+            <input type="radio" name="yes">Other
             <br><br>
             <label for="present address">Present Address :</label><br><br>
             <textarea name="" id="" cols="30" rows="5"></textarea>
             <br><br>
-            <label for="divison">Divison</label><br><br>
+            <label for="divison">Divison :</label><br>
             <select><br>
                 <option>DHAKA</option><br>
                 <option>RAJSHAHI</option><br>
@@ -32,7 +36,7 @@
                 <option>SYLET</option><br>
                 <option>BOGURA</option><br>
             </select><br><br>
-            <label for="district">District</label>
+            <label for="district">District :</label>
             <select>
                 <option>DHAKA</option><br>
                 <option>NATORE</option><br>
@@ -41,7 +45,7 @@
                 <option>KHULNA</option><br>
                </select><br><br>
 
-            <label for="religion">Religion</label>
+            <label for="religion">Religion :</label>
             <select>
                 <option>ISLAM</option>
                 <option>CHIRSTAN</option>
@@ -49,7 +53,7 @@
                 <option>HINDU</option>
                 <option>OTHER</option>
                </select><br><br>
-            <label for="natonality">nationality</label>
+            <label for="natonality">Nationality :</label>
             <select>
                 <option>Bangladeshi</option>
                 <option>Indian</option>
@@ -58,13 +62,13 @@
                 <option>Pakistani</option>
                </select><br><br>
            
-            <label for="phone">phone</label>
+            <label for="phone">Phone :</label>
             <input type="number"><br><br>
-            <label for="email">email</label>
+            <label for="email">Email :</label>
             <input type="email"><br><br>
             <label for="NID">NID</label>
             <input type="number"><br><br>
-            <label for="Blood Group">Blood Group</label><br><br>
+            <label for="Blood Group">Blood Group :</label><br>
             <select>
                 <option>A+</option>
                 <option>A-</option>
@@ -74,13 +78,19 @@
                 <option>AB-</option>
                 <option>O+</option>
                 <option>O-</option>
-            </select><br><br>
-            <label for="Course Name">Course Name</label><br><br>
+            </select><br>
+            <label for="Course Name">Course Name :</label><br>
             <input type="checkbox">JAVA<br>
-            <input type="checkbox">wdpf<br>
+            <input type="checkbox">WDPF<br>
             <input type="checkbox">C# NET<br>
             <input type="checkbox">DATABASE<br>
             <input type="checkbox">NETWORKING<br>
+            <input type="checkbox">GAVE<br>
+            <label for="status">Status :</label>
+            <input type="radio" name="yes">Married
+            <input type="radio" name="yes">Single
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
             
 
         </fieldset>

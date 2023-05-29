@@ -1,0 +1,204 @@
+
+body {
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(104, 102, 102);
+}
+
+/* ======== Header ========== */
+
+header {
+    height: 100vh;
+}
+
+/*  ====== navbar   ======= */
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    
+    
+}
+
+.nav-header{
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 5px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(104, 102, 102);
+}
+
+
+/* ================= */
+
+
+/* ====== banner ========= */
+
+.banner {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    width: fit-content;
+    height: fit-content;
+    /* margin-bottom: 10px; */
+}
+
+
+.right-div {
+    background-image: url('images/Circle\ design.svg');
+    background-size: 96%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 35%;
+}
+
+.left-div h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(104, 102, 102);
+}
+
+.left-div {
+    width: 60%;
+    height: 100%;
+}
+
+
+/* ===== animation ===== */
+
+.right-div img {
+    /* transition: transform 4s; */
+    border: none;
+    animation: MoveUpDown 2s linear infinite;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    
+}
+
+.right-div img:hover {
+    transform: rotate(360deg);
+    /* transform: translateY(100px); */
+    
+  }
+
+  /* ==== move up down animation === */
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 20px;
+    }
+  }
+
+/* ============================= */
+
+button {
+    padding: 5px;
+    color: whitesmoke;
+    background-color:rgb(224, 49, 107);
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+button p {
+    margin: 10px;
+   
+}
+
+
+/* =========================== */
+
+
+
+/* ======== logo section ======= */
+
+.logo-section {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* margin-top: 30px;  */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+/* ===========  cards =========== */
+
+.popular-section-header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.popular-section {
+
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.card {
+    box-shadow: 0px 10px 10px 10px rgba(160, 158, 158, 0.521) ;
+    padding: 8px;
+    border-radius: 10px;
+    width: 80%;
+    
+}
+
+.card img {
+    width: 100%;
+}
+
+/* ======== feature section ============  */
+
+.feature-section {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.left-feature img {
+    box-shadow: 0px 10px 10px 10px rgba(160, 158, 158, 0.521) ;
+    border-radius: 20px;
+}
+
+/* ========= footer =========== */
+
+footer {
+    background-color: rgb(23, 46, 80);
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    margin-bottom: -10px;
+    border-radius: 5px;
+}
+
+footer span {
+    letter-spacing: 50px;
+    
+}

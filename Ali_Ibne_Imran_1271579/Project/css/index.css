@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(95, 94, 94);
+}
+.container{
+    width: 100%;
+}
+.menu{
+    float: left;
+    position: fixed;
+}
+a{
+    display: block;
+    text-decoration: none;
+    text-align: justify;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+a:hover{
+    color: aqua;
+    font-size: 22px;
+}
+.frame,iframe{
+    float: right;
+    width: 87%;
+    height: 1000px;
+    background-color: gray;
+}
+   
+ 
+       

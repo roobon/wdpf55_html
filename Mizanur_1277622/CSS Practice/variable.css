@@ -1,0 +1,22 @@
+:root{
+    --para-h2-color: blue;
+    --padding: 30px;
+}
+p{
+    background-color: beige;
+    color: var(--para-h2-color);
+    padding: var(--padding);
+
+}
+h2{
+    background-color: rgb(15, 241, 117);
+    color: var(--para-h2-color);
+    padding: var(--padding);
+}
+img{
+    height: 200px;
+    filter: saturate(0);
+}
+img:hover{
+    filter: saturate(1);
+}
