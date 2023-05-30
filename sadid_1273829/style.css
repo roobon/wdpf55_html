@@ -1,0 +1,14 @@
+.heading{
+     font-size: 35px;
+     border: 2px dashed pink;
+}
+#head_style{
+     background-color: brown;
+}
+p{
+     color: whitesmoke;
+     background-color: black;
+}
+#para{
+     background-color: blue;
+}
