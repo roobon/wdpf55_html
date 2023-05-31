@@ -60,7 +60,15 @@ header .srch span button{
      border-radius: 0 5px 5px 0;
      color: #fff;
      font-weight: 600;
- }
+}
+.active{
+     border-bottom: 1px solid #FF6900;
+     color: #3f8080;
+     font-weight: 600;
+}
+/* Header section ends */
+
+/* banner section starts */
 section img{
      width: 100vw;
      height: 90vh;
@@ -188,6 +196,7 @@ footer a{
      justify-content: center;
 }
 .smartbanner .smart_text h1{
+     height: 4.5rem;
      font-size: 2rem;
      color: aliceblue;
      line-height: 4rem;
@@ -226,6 +235,9 @@ footer a{
      text-align: center;
      font-family: 'Poppins', sans-serif;
 }
+.common_section .common_box .common_media h2, .common_section1 .common_box_1 .common_media_1 h2{
+     height: fit-content;
+}
 .common_section1{
      display: grid;
      grid-template-columns: repeat(3, 1fr);
@@ -247,6 +259,7 @@ footer a{
      text-align: center;
      font-family: 'Poppins', sans-serif;
 }
+
 .common_section1 .common_box_1 img{
      margin: 90px 0 0 60px;
      height: 230px;
