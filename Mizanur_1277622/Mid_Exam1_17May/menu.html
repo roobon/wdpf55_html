@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        #menu{
+            background-color: antiquewhite;
+            width: 150px;
+            height: 485px;
+            float: left;
+            text-align: center;
+            padding-top: 30px;    
+            padding: 10px;    
+
+        }
+        #menu a{
+            text-decoration: none;
+            font-size: 20px;
+            color: blue;
+        }
+        #frame{
+            border: 1px solid black;
+            float: left;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+        <div id="menu">
+            <a href="table.html" target="frame">Table</a> <br><br>
+            <a href="registration_form.html" target="frame">Registration Form</a>
+        </div>
+    <div id="frame">
+        <iframe src="table.html" frameborder="0" name="frame" width="550px" height="500px"></iframe>
+    </div>
+</body>
+</html>
