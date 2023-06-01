@@ -1,3 +1,8 @@
+h1 {
+    padding: 10px;
+    position: relative;
+    top: 70px;
+}
 body {
     background-color: rgb(245, 239, 230);
 }
@@ -7,14 +12,20 @@ nav a {
     color: rgb(247, 162, 4);
 }
 a {
+    transition: transform 3s;
     text-decoration: none;
     margin: 10px;
     
+}
+a:hover {
+    background-color: white;
+    transform: scale(1.2);
 }
 nav {
     border: 0px solid rgb(216, 214, 214);
     height: 30px;
     padding: 10px;
+    
 }
 /* h1 {
     clear: both
@@ -51,6 +62,10 @@ img {
     height: 350px;
     width: 250px;
    overflow: hidden;
+   transition: transform 3s;
+}
+.content:hover {
+   transform: scale(1.09);
 }
 
 
