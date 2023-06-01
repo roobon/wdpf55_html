@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(6, 34, 116);
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.srch{
+    width: 40vw;
+}
+.srch input{
+    padding: .4rem;
+    width: 60%;
+    border: 3px solid rgb(26, 247, 199);
+    outline: none;
+    border-right: none;
+}
+.srch button{
+    padding: .4rem 1rem;
+    background-color: rgb(26, 247, 199);
+    border: 3px solid rgb(26, 247, 199);
+}
+header .logo{
+    height: 80px;
+    width: 60vw;
+}
+header .logo img{
+    height: 70px;
+    width: 110px;
+}
+
+.container{
+    width: 90vw;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.container .menu{
+    width: 25%;
+    background-color: #f7f7f7;
+}
+.container .menu nav ul{
+    text-align: center;
+    margin-top: 40px;
+}
+.container .menu nav ul li{
+    list-style-type: none;
+    padding: 1.2rem 0;
+}
+.container .menu nav ul li a{
+    font-weight: 700;
+    text-decoration: none;
+    color: #5a5a5a;
+    transition: .3s ease-in;
+}
+.active{
+    border-bottom: 2px solid rgb(26, 247, 199);
+    color: #000;
+}
+/* .container .menu nav ul li:hover a{
+    color: #000;
+} */
+.container .content{
+    width: 75%;
+}
+.container .content h1{
+    margin: 20px 10px;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    background-color: #f6f6f6;
+}
+.container .content p{
+    text-align: justify;
+    padding: 0 30px 40px 20px;
+    line-height: 1.7rem;
+}
+
+footer{
+    background-color: rgb(6, 34, 116);
+    color: #fff;
+    text-align: center;
+}
+footer p{
+    padding: 1rem;
+}
+.color1{
+    background-color: skyblue;
+}
+.color2{
+    background-color: burlywood;
+}
