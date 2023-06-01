@@ -15,16 +15,19 @@ header{
     width: 40vw;
 }
 .srch input{
-    padding: .4rem;
     width: 60%;
+    padding: .4rem;
+    margin: .4rem -.5rem .4rem .4rem;
     border: 3px solid rgb(26, 247, 199);
     outline: none;
     border-right: none;
+    border-radius: .3rem 0 0 .3rem;
 }
 .srch button{
     padding: .4rem 1rem;
     background-color: rgb(26, 247, 199);
     border: 3px solid rgb(26, 247, 199);
+    border-radius: 0 .3rem .3rem 0;
 }
 header .logo{
     height: 80px;
@@ -64,9 +67,7 @@ header .logo img{
     border-bottom: 2px solid rgb(26, 247, 199);
     color: #000;
 }
-/* .container .menu nav ul li:hover a{
-    color: #000;
-} */
+
 .container .content{
     width: 75%;
 }
