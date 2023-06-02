@@ -237,6 +237,7 @@ footer a{
 }
 .common_section .common_box .common_media h2, .common_section1 .common_box_1 .common_media_1 h2{
      height: fit-content;
+     overflow-y: hidden;
 }
 .common_section1{
      display: grid;
