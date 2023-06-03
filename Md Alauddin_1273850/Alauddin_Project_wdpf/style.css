@@ -5,22 +5,24 @@ h1 {
     color: rgb(243, 148, 23);
 }
 body {
-    background-color: rgb(236, 234, 230);
+    background-color: rgb(250, 245, 235);
 }
 
 nav a {
     padding: 10px;
-    color: rgb(247, 162, 4);
+    color: rgb(73, 47, 2);
+    font-weight: bold;
+    font-size: 18px;
 }
 a {
-    transition: transform 3s;
+    
     text-decoration: none;
     margin: 10px;
     
 }
 a:hover {
-    background-color: white;
-    transform: scale(1.2);
+    background-color: rgb(168, 150, 126);
+    border-radius: 5px;
 }
 nav {
     border: 0px solid rgb(216, 214, 214);
@@ -68,17 +70,26 @@ img {
 .content:hover {
    transform: scale(1.09);
 }
+button {
+    height: 30px;
+    background: rgba(49,151,233,.1);
+    border: 1px solid rgba(49,151,233,.1);
+    color: rgb(12, 128, 128);
+}
+.buy {
+    background: rgba(242,110,33,.1);
+    border: 1px solid rgba(242,110,33,.1);
+    color: brown;
+}
 #center {
+    color: rgb(209, 205, 205);
     text-align: center;
+    
 }
 footer {
     background-color: rgb(54, 49, 49);
     height: 300px;
     border-radius: 15px;
-}
-#text {
-    padding: 10px;
-    font-weight: bold;
 }
 
 
