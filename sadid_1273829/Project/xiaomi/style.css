@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     overflow-x: hidden;
+}
+header{
+     width: 100vw;
+     box-shadow: 0 0 7px grey;
+     height: 8vh;
+     position: fixed;
+     background-color: #fff;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.menu{
+     height: 8vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.menu .img{
+     height: 35px; 
+     width: 45px;
+     display: flex;
+     align-items: center;
+     height: 8vh;
+     margin-left: 30px;
+     cursor: pointer;
+}
+.menu nav{
+     font-size: .9rem;
+     margin-left: 20px;
+}
+.menu nav a{
+     margin: 0 20px;
+     font-family: 'Poppins', sans-serif;
+     text-decoration: none;
+     color: #191919;
+}
+.menu nav a:hover{
+     color: #3f8080;
+}
+header .srch{
+     margin-right: 40px;
+}
+header .srch span input{
+     outline: none;
+     border: 1px solid #FF6900;
+     border-right: none;
+     padding: 7px 12px;
+     border-radius: 5px 0 0 5px;
+ }
+header .srch span button{
+     padding: 7px 20px;
+     border: 1px solid #FF6900;
+     background-color: #FF6900;
+     border-radius: 0 5px 5px 0;
+     color: #fff;
+     font-weight: 600;
+}
+.active{
+     border-bottom: 1px solid #FF6900;
+     color: #3f8080;
+     font-weight: 600;
+}
+/* Header section ends */
+
+/* banner section starts */
+section img{
+     width: 100vw;
+     height: 90vh;
+     cursor: pointer;
+}
+.banner2{
+     width: 100vw;
+     height: 85vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #f1f1f1;
+     margin: 50px 0; 
+}
+.banner2 .text{
+     width: 50vw;
+     margin: 0 150px;
+     font-family: 'Poppins', sans-serif;
+}
+.banner2 .text h1{
+     font-size: 2.5rem;
+     text-align: left;
+     line-height: 5rem;
+}
+.banner2 .text p{
+     font-size: 2rem;
+}
+.banner2 .text button, .smartbanner .smart_text button, .common_section .common_box .common_media button, .common_section1 .common_box_1 .common_media_1 button{
+     padding: .5rem 2rem;
+     margin: 20px auto;
+     border: none;
+     border-radius: .2rem;
+     box-shadow: 0 0 6px #f1f1f1;
+     cursor: pointer;
+}
+.banner2 .image{
+     width: 50vw;
+}
+.banner2 .image>img{
+     width: 500px;
+     height: fit-content;
+     cursor: initial;
+}
+
+
+/* main section starts here */
+h1{
+     font-family: 'Poppins', sans-serif;
+     text-align: center;
+     color: rgb(1, 128, 128);
+     width: 100vw;
+}
+main{
+     width: 100vw;
+     margin: 30px;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+}
+main>div{
+     width: 45%;
+     margin: 10px;
+     border: .2px solid rgb(197, 197, 197);
+     border-radius: .5rem;
+     padding: 15px;
+     display: flex;
+     align-items: center;
+     /* justify-content: center; */
+}
+main>div img{
+     width: 40%;
+}
+main div .details table, tr, td{
+     border: 1px solid rgb(197, 197, 197);
+     border-collapse: collapse;
+}
+main div .details table tr td{
+     border-radius: .3rem;
+     padding: .5rem 1rem;
+     width: 50%;
+}
+footer{
+     background-color: #191919;
+     color: #fff;
+     width: 100vw;
+     height: 6vh;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px 15px;
+     font-size: .9rem;
+}
+footer .copy{
+     margin-left: 20px;
+     overflow-y: hidden;
+}
+footer a{
+     color: #f1f1f1;
+     margin-left: 15px;
+     padding-right: 40px;
+}
+
+
+/* smart home */
+.smartbanner{
+     background: url(images/vaccum\ S10+.jpg);
+     width: 100vw;
+     height: 80vh;
+     margin: 7vh 0;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     color: #fff;
+     overflow-y: hidden;
+     font-family: 'Poppins', sans-serif;
+}
+
+.smartbanner .smart_text{
+     margin: 50px 80px;
+     width: 40%;
+     height: 80vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+.smartbanner .smart_text h1{
+     height: 4.5rem;
+     font-size: 2rem;
+     color: aliceblue;
+     line-height: 4rem;
+}
+.smartbanner .smart_text p{
+     color: #757575;
+}
+
+.common_h2{
+     text-align: center;
+     font-size: 2.3rem;
+     color: #3cc5c5;
+     margin: 15px;
+}
+
+.common_section{
+     width: 90vw;
+     margin: 30px auto;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+}
+.common_section .common_box{
+     background-color: #fff;
+     width: 90%;
+     margin: 20px auto;
+     padding: 20px;
+     border-radius: .2rem;
+     transition: ease-in .1s;
+}
+.common_section .common_box:hover{
+     cursor: pointer;
+     box-shadow: .5px .5px 2.7px rgb(211, 211, 211);
+}
+.common_section .common_box .common_media{
+     line-height: 2rem;
+     text-align: center;
+     font-family: 'Poppins', sans-serif;
+}
+.common_section .common_box .common_media h2, .common_section1 .common_box_1 .common_media_1 h2{
+     height: fit-content;
+     overflow-y: hidden;
+}
+.common_section1{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+}
+.common_section1 .common_box_1{
+     background-color: #fff;
+     width: 90%;
+     margin: 20px auto;
+     padding: 20px;
+     border-radius: .2rem;
+     transition: ease-in .1s;
+}
+.common_section1 .common_box_1:hover{
+     cursor: pointer;
+     box-shadow: .5px .5px 2.7px rgb(211, 211, 211);
+}
+.common_section1 .common_box_1 .common_media_1{
+     line-height: 2rem;
+     text-align: center;
+     font-family: 'Poppins', sans-serif;
+}
+
+.common_section1 .common_box_1 img{
+     margin: 90px 0 0 60px;
+     height: 230px;
+     width: 250px;
+}
+
+/* life section starts */
+
+.life_banner{
+     width: 100vw;
+     height: 74vh;
+     margin: 6vh auto;
+     overflow-y: hidden;
+}
+.life_banner img{
+     width: 100%;
+     height: 80vh;
+}
+@media screen {
+     
+}

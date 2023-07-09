@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    /* margin: 0%;
+    padding: 0%; */
 }
 .container{
     width: 100%;
@@ -23,25 +25,43 @@ span{
     width: 20%;
     height: 500px;
     float: left;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     padding: 2%;
     margin-left: 4%;
 }
 img{
     width: 150px;
     height: 150px;
-    border-radius: 100px;
-    margin: auto;
+    border-radius: 50%;
+    margin-left: 10%;
     padding: 2%;
     float: left;
-    /* margin-left: 20px; */
+    border: 1px solid black;
 }
 h2{
     text-align: center;
-    display: inline-block;
-    margin: 10px;
     font-size: 20px;
+    margin-top: 90%;
+    /* border: 1px solid black; */
 }
 p{
     text-align: justify;
+}
+.link{
+    /* margin: auto; */
+    float: left;
+    display: flex;
+    width: 100%;
+    /* border: 1px solid black; */
+
+}
+.link img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 3px 10px 10px;
+    border: none;
+}
+.link img:hover{
+    background-color: blue;
+    color: transparent;
 }

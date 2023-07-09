@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.active{
+    border-bottom: 3px solid red;
+    padding: .4rem .4rem;
+    color: #000;
+}
+header{
+    width: 100vw;
+    height: 25vh;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    width: 200px;
+    height: 25vh;
+}
+header .srch{
+    margin: 0 1.5rem;
+}
+header .srch input{
+    padding: .3rem;
+    width: 300px;
+    outline: none;
+    border: .2px solid rgb(179, 179, 179);
+    border-radius: .3rem;
+}
+header .srch button{
+    padding: .3rem .9rem;
+    background-color: cadetblue;
+    border: none;
+    border-radius: .3rem;
+    color: #f7f7f7;
+    cursor: pointer;
+    transition: ease-in .3s;
+}
+header .srch button:hover{
+    color: #fff;
+    background-color: rgb(35, 90, 92);
+}
+.container{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    display: flex;
+}
+.container nav{
+    width: 20%;
+}
+.container nav ul{
+    text-align: center;
+}
+.container nav ul li{
+    list-style-type: none;
+    padding: 1.1rem;
+    transition: ease-in .3s;
+}
+.container nav ul li:hover a{
+    color: #000;
+    border-right: 1px solid red;
+    border-bottom: 3px solid red;
+    padding: .4rem .4rem;
+    border-radius: .3rem;
+}
+.container nav ul li a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+.content{
+    width: 80%;
+    border: .2px solid rgb(192, 192, 192);
+    padding: 1.1rem;
+    text-align: justify;
+    margin-right: 1rem;
+    background-color: wheat;
+    border-radius: .3rem;
+}
+.content h1{
+    padding: 1.1rem 0;
+}
+.a_content{
+    width: 80%;
+    border: .2px solid rgb(192, 192, 192);
+    padding: 1.1rem;
+    text-align: justify;
+    margin-right: 1rem;
+    background-color: aquamarine;
+    border-radius: .3rem;
+}
+.a_content h1{
+    padding: 1.1rem 0;
+}
+.c_content{
+    width: 80%;
+    border: .2px solid rgb(192, 192, 192);
+    padding: 1.1rem;
+    text-align: justify;
+    margin-right: 1rem;
+    background-color: rgb(173, 224, 173);
+    border-radius: .3rem;
+}
+.c_content h1{
+    padding: 1.1rem 0;
+}
+footer{
+    width: 100vw;
+    background-color: bisque;
+    margin: 5px 0;
+}
+footer p{
+    padding: 1rem 0;
+    text-align: center;
+}
